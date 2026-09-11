@@ -1,0 +1,33 @@
+{
+ "country": "DK",
+ "generated_at": "2026-08-15T20:55:21.645090+00:00",
+ "seed": 20260815,
+ "history_last": "2025Q4",
+ "forecast_from": "2026Q1",
+ "segments": [
+  "Agricultural_buildings",
+  "Commercial_buildings",
+  "Detached_houses",
+  "Education_buildings",
+  "Flats",
+  "Health_buildings",
+  "Holiday_houses",
+  "Hotels_restaurants",
+  "Industrial_buildings",
+  "Office_buildings",
+  "Other_buildings",
+  "Residential_garages",
+  "Row_chained_linked_houses",
+  "Storage_buildings",
+  "Transport_communication"
+ ],
+ "n_segments": 15,
+ "n_drivers": 15,
+ "frozen_drivers": [
+  "Construction_costs_Office",
+  "Kontorbeskaeftigelse",
+  "Tobins_Q_Office"
+ ],
+ "warnings": [],
+ "spec_hash": "f48bd53fa3738160"
+}

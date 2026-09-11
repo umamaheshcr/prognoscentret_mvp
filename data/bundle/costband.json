@@ -1,0 +1,167 @@
+{
+ "manifest": {
+  "driver": "Construction costs",
+  "years": [
+   2026,
+   2027,
+   2028
+  ],
+  "n_institutional_forecasts": 0,
+  "why_no_institutions": "build_cost er registreret som driver i P1's base, men har nul claims: ingen af de 13 kilder fremskriver et dansk byggeomkostningsindeks. En gennemsoegning af alle 150 arkiverede PDF'er bekraefter det: nul tal, og kun tre prosaudsagn om retningen.",
+  "corpus_search": "150 PDF'er gennemsoegt for byggeomkostning, materialepris, entreprisepris m.fl. Bemaerk fælden: de staerkeste byggeomkostnings-citater i de nordiske outlooks handler om Sverige, Norge og Litauen — ikke Danmark.",
+  "band_is": "spredning paa TRENDESTIMATET - hvor meget et forsvarligt skoen flytter sig med maalevinduet - ikke udfaldsvolatilitet. De to er forskellige stoerrelser, og kun den foerste kan sammenlignes med uenighed mellem prognosemagere.",
+  "outcome_volatility_for_contrast": 0.026078,
+  "source_file": "C:\\Users\\b45615\\analyst-console\\public\\data\\dk\\drivers.json"
+ },
+ "correlation": {
+  "space": "log",
+  "r": -0.1615,
+  "n": 76,
+  "window": "2006Q1..2025Q4",
+  "sd_costs": 0.024129,
+  "sd_house_prices_implied": 0.071689,
+  "sd_tobins_q_predicted": 0.079249,
+  "sd_tobins_q_actual": 0.079249,
+  "error_pct": 0,
+  "sd_check_simple_growth": {
+   "r": -0.171,
+   "predicted": 0.079014,
+   "actual": 0.076483,
+   "error_pct": 3.31,
+   "note": "Samme regnestykke paa simple vaekstrater. Overvurderer, fordi identiteten kun er eksakt i log."
+  },
+  "check": "Variansidentiteten er efterproevet paa modellens egne serier: forudsagt mod faktisk spredning paa Tobins Q."
+ },
+ "trend_estimates": [
+  {
+   "label": "seneste 5 aar",
+   "kind": "window",
+   "value": 0.040201,
+   "note": "gennemsnitlig aarsvaekst 2021-2025"
+  },
+  {
+   "label": "seneste 10 aar",
+   "kind": "window",
+   "value": 0.024711,
+   "note": "gennemsnitlig aarsvaekst 2016-2025"
+  },
+  {
+   "label": "seneste 15 aar",
+   "kind": "window",
+   "value": 0.023931,
+   "note": "gennemsnitlig aarsvaekst 2011-2025"
+  },
+  {
+   "label": "hele perioden",
+   "kind": "window",
+   "value": 0.023541,
+   "note": "gennemsnitlig aarsvaekst 2007-2025"
+  },
+  {
+   "label": "median, hele perioden",
+   "kind": "robust",
+   "value": 0.018821,
+   "note": "median er ufoelsom over for materialechokket 2021-23"
+  },
+  {
+   "label": "uden 2021-23",
+   "kind": "robust",
+   "value": 0.015996,
+   "note": "materialeprischokket udeladt; den nedre grænse for et defensibelt trendskoen"
+  }
+ ],
+ "written_evidence": [
+  {
+   "source_id": "dors",
+   "name": "De Økonomiske Råd (DØRS)",
+   "title": "Dansk Økonomi, forår 2026",
+   "published_at": "2026-05-01",
+   "page": 72,
+   "page_printed": 66,
+   "extraction": "prose",
+   "value": null,
+   "direction": "up",
+   "year": null,
+   "quote": "De seneste års høje boligprisfremgang gør det alt andet lige mere rentabelt at bygge nyt, men omvendt er der udsigt til stigende materialepriser og renter som følge af krigen samt betragtelig usikkerhed.",
+   "why_no_value": "Udsagnet er retningsbestemt. Der står ingen sats, og der kan ikke udledes en uden at digte.",
+   "caution": "På SAMME side står 5¾ pct. i 2026 og ca. 1¾ pct. i 2027. Det er BOLIGPRISER, ikke byggeomkostninger. De to må ikke forveksles."
+  },
+  {
+   "source_id": "nationalbanken",
+   "name": "Danmarks Nationalbank",
+   "title": "Energipriserne stiger igen, men inflationsudsigterne er ikke som i 2022",
+   "published_at": "2026-06-08",
+   "page": 5,
+   "extraction": "prose",
+   "value": null,
+   "direction": "up",
+   "year": null,
+   "quote": "Højere naftapriser øger omkostningerne i plast-, gummi- og kemikalieindustrien, mens højere bitumenpriser øger prisen på asfalt og andre byggematerialer.",
+   "why_no_value": "Beskriver en transmissionsmekanisme i nutid, ikke en fremskrivning."
+  },
+  {
+   "source_id": "dors",
+   "name": "De Økonomiske Råd (DØRS)",
+   "title": "Dansk Økonomi, efterår 2024",
+   "published_at": "2024-10-01",
+   "page": 129,
+   "page_printed": 123,
+   "extraction": "prose",
+   "value": null,
+   "direction": "up",
+   "year": null,
+   "quote": "Eksempelvis kan lav produktivitetsvækst føre til forøgede omkostninger, jf. blandt andet Produktivitet, 2023, herunder højere byggeomkostninger, hvilket vil være til ugunst for både virksomheder og husholdninger.",
+   "why_no_value": "Betinget risiko ved et forlænget højkonjunkturforløb, ikke en prognose. Årstal kan ikke fastslås.",
+   "note": "Eneste forekomst af ordet 'byggeomkostninger' i hele korpuset på 150 PDF'er."
+  }
+ ],
+ "band": {
+  "low": 0.015996,
+  "high": 0.040201,
+  "basis": "trend_windows",
+  "written_is_numeric": false,
+  "written_lean": "up",
+  "written_note": "Ingen institution saetter tal paa danske byggeomkostninger for 2026-2028. De skriftlige kilder angiver kun retning og indgaar derfor ikke i baandets talvaerdier."
+ },
+ "years": {
+  "2026": {
+   "central": 0.023096977872984936,
+   "central_rationale": "Forholdet til build_cost slår ikke den simple regel — beregnet af backtestens bedste regel i stedet",
+   "low": 0.015996,
+   "high": 0.040201
+  },
+  "2027": {
+   "central": 0.023096977872984936,
+   "central_rationale": "Forholdet til build_cost slår ikke den simple regel — beregnet af backtestens bedste regel i stedet",
+   "low": 0.015996,
+   "high": 0.040201
+  },
+  "2028": {
+   "central": 0.023096977872984936,
+   "central_rationale": "Forholdet til build_cost slår ikke den simple regel — beregnet af backtestens bedste regel i stedet",
+   "low": 0.015996,
+   "high": 0.040201
+  }
+ },
+ "history": {
+  "2007": 0.057029,
+  "2008": 0.018821,
+  "2009": -0.007389,
+  "2010": 0.019851,
+  "2011": 0.036496,
+  "2012": 0.024648,
+  "2013": 0.011455,
+  "2014": 0.01812,
+  "2015": 0.021135,
+  "2016": 0.011983,
+  "2017": 0.004306,
+  "2018": 0.021436,
+  "2019": 0.006296,
+  "2020": 0.002086,
+  "2021": 0.067638,
+  "2022": 0.104288,
+  "2023": 0.019417,
+  "2024": 0.006926,
+  "2025": 0.002736
+ }
+}

@@ -1,0 +1,177 @@
+{
+ "manifest": {
+  "generated_at": "2026-09-02T06:57:50.336923+00:00",
+  "as_of": "2026-09-02",
+  "source": "nowcast_vagt (Agent P1 research/markedsdrivere/nowcast_vagt) — recipes of 1 Sep 2026",
+  "role": "Sekundære markedsdrivere: de informerer analytikerens skøn om de eksogene drivere — de flytter aldrig et tal.",
+  "warnings": []
+ },
+ "nowcasts": [
+  {
+   "id": "mortgage_rate_q",
+   "targets": [
+    "mortgage_rate",
+    "Real_Interest_rate_Mortgage"
+   ],
+   "label": "Realkreditrente 30Y, kvartalsnowcast",
+   "period": "2026K3",
+   "value": 4.753,
+   "unit": "pct.",
+   "mae": 0.09,
+   "category": "derived_tested",
+   "sources": "Finans Danmark ugerente (delta) + DNRNUM (fakta)",
+   "freshness": "DNRNUM t.o.m. 2026M07; FD uge 35/2026",
+   "method": "Delta-kobling på seneste DNRNUM-måned — aldrig fast niveaukile (spændet drifter). Backtest 46 kvartaler; median <0,1 pp fra uge 3. Realrenten = denne minus SPF-deflatoren pr. kvartal."
+  },
+  {
+   "id": "cbrate_q",
+   "targets": [
+    "cbrate",
+    "Real_Interest_rate_CB"
+   ],
+   "label": "Indskudsbevisrente, kvartalsnowcast",
+   "period": "2026K3",
+   "value": 1.85,
+   "unit": "pct.",
+   "mae": 0.12,
+   "category": "derived_tested",
+   "sources": "Nationalbanken DNRENTD (OIBNAA, dagligt)",
+   "freshness": "45 realiserede dage, seneste 2026M09D01",
+   "method": "Kvartalsgennemsnit af realiserede dage + seneste sats for resten. Administreret rente: flytter på ikrafttrædelsesdagen, ikke annonceringen."
+  },
+  {
+   "id": "strate_q",
+   "targets": [
+    "strate"
+   ],
+   "label": "Kort rente (DESTR + kile), kvartalsnowcast",
+   "period": "2026K3",
+   "value": 2.201,
+   "unit": "pct.",
+   "mae": 0.12,
+   "category": "derived_tested",
+   "sources": "Nationalbanken DNRENTD (DESNAA, dagligt) + kile 0,412",
+   "freshness": "44 realiserede dage, seneste 2026M08D31",
+   "method": "Kvartalsgennemsnit af realiserede dage + seneste sats for resten. Administreret rente: flytter på ikrafttrædelsesdagen, ikke annonceringen. Kilen genmåles kvartalsvis."
+  },
+  {
+   "id": "ltrate_q",
+   "targets": [
+    "ltrate",
+    "Real_Interest_rate_LT"
+   ],
+   "label": "Lang rente 10Y, kvartalsnowcast",
+   "period": "2026K3",
+   "value": 2.988,
+   "unit": "pct.",
+   "mae": 0.07,
+   "category": "derived_tested",
+   "sources": "ECB: DK IRS 10Y (md.-anker) + euro YC 10Y (dagsdelta)",
+   "freshness": "IRS t.o.m. 2026M07; YC t.o.m. 2026-08-31",
+   "method": "IRS-månederne som anker, YC-dagskurven som delta for uudgivne måneder. Samme-dags nyhedsreaktiv (bevist 5/3-2025: +0,24 pp på dagen)."
+  },
+  {
+   "id": "build_cost_q",
+   "targets": [
+    "build_cost",
+    "Construction_costs"
+   ],
+   "label": "Byggeomkostninger (BYG43 i alt), kvartalsensemble",
+   "period": "2026K3",
+   "value": 3.4,
+   "unit": "pct. å/å",
+   "mae": 1.25,
+   "category": "derived_tested",
+   "sources": "DST PRIS1121, 11 varegrupper (1 af 3 mdr. kendt)",
+   "freshness": "seneste BYG43-facit 2026K1 = 1.60",
+   "spread": [
+    1.33,
+    5.68
+   ],
+   "flag_vs_hold": 1.8,
+   "method": "Ensemble af 11 varegruppe-OLS'er mod BYG43-å/å. Brug FLAGET (afvigelse fra seneste realiserede kvartal): ved |flag| ≥ 1,5 pp er retningen rigtig i 73 pct. af tilfældene. Årsnowcast: MAE 1,05 pp allerede i februar."
+  },
+  {
+   "id": "bolig_villa",
+   "targets": [
+    "hpi",
+    "Tobins_Q_Detached_houses"
+   ],
+   "label": "Boligpriser, enfamiliehuse (nowcast af EJ56)",
+   "period": "jul-26",
+   "value": 8.7,
+   "unit": "pct. å/å",
+   "mae": 0.87,
+   "category": "tilnaermelse",
+   "sources": "Boligsidens Markedsindeks (gratis PDF, arkiveret)",
+   "freshness": "PDF-udgave jul-26 (Markedsindeks_jul-26_hentet_2026-09-01.pdf)",
+   "raw_yoy": 9.6,
+   "method": "Kalibrering a+b·å/å målt på API-historikken (33 OOS-kvartaler) — DEKLARERET TILNÆRMELSE for PDF-serien (villa inkl. rækkehuse, 3-mdrs glatning). Genmåles ved 6+ arkiverede PDF-måneder. PDF'en foreligger 2-4 mdr. før DST's foreløbige tal."
+  },
+  {
+   "id": "bolig_lejlighed",
+   "targets": [
+    "hpi_flats",
+    "Tobins_Q_Flats"
+   ],
+   "label": "Boligpriser, ejerlejligheder (nowcast af EJ56)",
+   "period": "jul-26",
+   "value": 15.2,
+   "unit": "pct. å/å",
+   "mae": 1.27,
+   "category": "tilnaermelse",
+   "sources": "Boligsidens Markedsindeks (gratis PDF, arkiveret)",
+   "freshness": "PDF-udgave jul-26 (Markedsindeks_jul-26_hentet_2026-09-01.pdf)",
+   "raw_yoy": 17.9,
+   "method": "Kalibrering a+b·å/å målt på API-historikken (33 OOS-kvartaler) — DEKLARERET TILNÆRMELSE for PDF-serien (villa inkl. rækkehuse, 3-mdrs glatning). Genmåles ved 6+ arkiverede PDF-måneder. PDF'en foreligger 2-4 mdr. før DST's foreløbige tal."
+  },
+  {
+   "id": "bolig_sommerhus",
+   "targets": [
+    "hpi_holiday",
+    "Tobins_Q_Holiday_homes"
+   ],
+   "label": "Boligpriser, sommerhuse (nowcast af EJ56)",
+   "period": "jul-26",
+   "value": 7,
+   "unit": "pct. å/å",
+   "mae": 1.82,
+   "category": "tilnaermelse",
+   "sources": "Boligsidens Markedsindeks (gratis PDF, arkiveret)",
+   "freshness": "PDF-udgave jul-26 (Markedsindeks_jul-26_hentet_2026-09-01.pdf)",
+   "raw_yoy": 8.3,
+   "method": "Kalibrering a+b·å/å målt på API-historikken (33 OOS-kvartaler) — DEKLARERET TILNÆRMELSE for PDF-serien (villa inkl. rækkehuse, 3-mdrs glatning). Genmåles ved 6+ arkiverede PDF-måneder. PDF'en foreligger 2-4 mdr. før DST's foreløbige tal."
+  },
+  {
+   "id": "spf_gab",
+   "targets": [
+    "infl"
+   ],
+   "label": "SPF-vagt: euro-flash minus SPF langsigt",
+   "period": "2026-08",
+   "value": 1.26,
+   "unit": "pp",
+   "mae": null,
+   "category": "vagt",
+   "sources": "Eurostat HICP-flash + ECB SPF (LT)",
+   "freshness": "flash 2026-08 = 3.3; SPF 2026-Q3 = 2.04",
+   "method": "Gabet mellem seneste euro-flash-inflation og SPF's langsigtsforventning (realrenternes deflator-anker). Tærskler (105 runder): >1,35 pp to måneder i træk = banen under pres; >2,0 pp = eskalér. SPF-LT selv skal IKKE nowcastes (hold-sidste MAE 0,03)."
+  },
+  {
+   "id": "cci_ktd",
+   "targets": [
+    "cci",
+    "Consumer_confidence_indicator_CCI"
+   ],
+   "label": "Forbrugertillid, kvartal-til-dato (FORV1)",
+   "period": "2026K3 (2 mdr.)",
+   "value": -13.9,
+   "unit": "nettotal",
+   "mae": null,
+   "category": "vagt",
+   "sources": "DST FORV1 (månedlig, ~0 publiceringslag)",
+   "freshness": "t.o.m. 2026M08 = -13.1",
+   "method": "Kvartal-til-dato-gennemsnit mod antagelsesbanen — tærskel 3 point. CCI's månedsændring kan IKKE forudsiges (hvid støj, målt); F7-prisforventningen giver retningen 6-10 mdr. frem (partiel r −0,52)."
+  }
+ ]
+}

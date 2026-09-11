@@ -1,0 +1,4571 @@
+{
+ "manifest": {
+  "country": "DK",
+  "generated_at": "2026-09-09T13:09:24.912101+00:00",
+  "forecast_date": "2026-09-03",
+  "source": "C:\\Users\\b45615\\OneDrive - Byggfakta Group\\Denmark\\Filer til prognosen\\Mentor Forecast\\p1 output\\rapport_2026-09-03.csv",
+  "n_drivers": 103,
+  "warnings": []
+ },
+ "drivers": [
+  {
+   "id": "aarlig_befolkningsvaekst_hovedstad_storby",
+   "label": "Årlig befolkningsvækst, hovedstads- og storbykommuner",
+   "grundlag": "husberegning",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "Husberegning på DST BEV107 B20A og DSTs kommunegruppering",
+   "sections": [
+    "demography"
+   ],
+   "terms": [
+    "storbykommuner",
+    "hovedstadskommuner",
+    "årlig befolkningstilvækst",
+    "urbanisering",
+    "storbyerne"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2025,
+     "value": 1,
+     "period": "2015-2025",
+     "quote": "Gennemsnitlig årlig vækst i befolkningen (BEV107 B20A) over de seneste ti år, summeret over de 27 hovedstads- og storbykommuner i DSTs kommunegruppering.\n · 2015-2025: (2.52232e+06 / 2.2918e+06)^(1/10) - 1 = 1 pct. om året",
+     "n_obs": 2
+    }
+   ]
+  },
+  {
+   "id": "aarlig_befolkningsvaekst_landkommuner",
+   "label": "Årlig befolkningsvækst, landkommuner",
+   "grundlag": "husberegning",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "Husberegning på DST BEV107 B20A og DSTs kommunegruppering",
+   "sections": [
+    "demography"
+   ],
+   "terms": [
+    "landkommuner",
+    "landdistrikter",
+    "årlig befolkningstilvækst",
+    "fald",
+    "affolkning"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2025,
+     "value": -0.3,
+     "period": "2015-2025",
+     "quote": "Gennemsnitlig årlig vækst i befolkningen (BEV107 B20A) over de seneste ti år, summeret over de 31 landkommuner i DSTs kommunegruppering. Tallet er negativt — landkommunerne mister befolkning.\n · 2015-2025: (1.15678e+06 / 1.18881e+06)^(1/10) - 1 = -0.3 pct. om året",
+     "n_obs": 2
+    }
+   ]
+  },
+  {
+   "id": "andel_foedselsoverskud_af_tilvaekst",
+   "label": "Fødselsoverskuddets andel af befolkningstilvæksten",
+   "grundlag": "husberegning",
+   "unit": "pct",
+   "talart": "andel",
+   "source": "Husberegning på DST BEV107 B04 og B11",
+   "sections": [
+    "demography"
+   ],
+   "terms": [
+    "fødselsoverskud",
+    "andel af befolkningstilvæksten",
+    "befolkningstilvækst"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2025,
+     "value": 3.8,
+     "period": "2025",
+     "quote": "BEV107 B04 fødselsoverskud divideret med B11 befolkningstilvækst for det senest udgivne år. Ét år, ikke et vindue: kapitlet skriver om året hvor udviklingen vendte.\n · 2025: 1258 / 32869 = 3.8 pct.",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "andel_ledige_stillinger_bygge",
+   "label": "Andel ledige stillinger, bygge og anlæg",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "DST LSK11, branche F, andel ledige stillinger i pct., alle arbejdssteder",
+   "sections": [
+    "supply_side"
+   ],
+   "terms": [
+    "ledige stillinger",
+    "ubesatte stillinger",
+    "rekruttering",
+    "vakance"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 2.5,
+     "period": "2023K02",
+     "quote": "DST LSK11, branche F, andel ledige stillinger i pct., alle arbejdssteder · samme periode året før, sæsonsikret 2023K02: 2.5",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 2.7,
+     "period": "2024K02",
+     "quote": "DST LSK11, branche F, andel ledige stillinger i pct., alle arbejdssteder · samme periode året før, sæsonsikret 2024K02: 2.7",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 2.5,
+     "period": "2025K02",
+     "quote": "DST LSK11, branche F, andel ledige stillinger i pct., alle arbejdssteder · samme periode året før, sæsonsikret 2025K02: 2.5",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 2.7,
+     "period": "2026K02",
+     "quote": "DST LSK11, branche F, andel ledige stillinger i pct., alle arbejdssteder · samme periode året før, sæsonsikret 2026K02: 2.7",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "andel_nettoindvandring_af_tilvaekst",
+   "label": "Nettoindvandringens andel af befolkningstilvæksten, seneste ti år",
+   "grundlag": "husberegning",
+   "unit": "pct",
+   "talart": "andel",
+   "source": "Husberegning på DST BEV107 B10 og B11",
+   "sections": [
+    "demography"
+   ],
+   "terms": [
+    "nettoindvandring",
+    "indvandring",
+    "befolkningstilvækst",
+    "andel af væksten",
+    "drevet af"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2025,
+     "value": 86.6,
+     "period": "2016-2025",
+     "quote": "Summen af BEV107 B10 nettoindvandrede divideret med summen af BEV107 B11 befolkningstilvækst over de seneste ti afsluttede år. Begge er trykte årstal for hele landet; vinduet skal være fuldt, ellers udgår tallet.\n · 2016-2025: 275694 / 318352 = 86.6 pct.",
+     "n_obs": 10
+    }
+   ]
+  },
+  {
+   "id": "befolkning_hovedstad_storby",
+   "label": "Befolkningen i hovedstads- og storbykommuner",
+   "grundlag": "maaling",
+   "unit": "antal",
+   "talart": "niveau",
+   "source": "DST BEV107, bevægelsesart B20A, summeret over de 27 hovedstads- og storbykommuner i DSTs kommunegruppering\n",
+   "sections": [
+    "demography"
+   ],
+   "terms": [
+    "storbykommuner",
+    "hovedstadskommuner",
+    "storbyerne",
+    "hovedstaden",
+    "urbanisering"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 2467665,
+     "period": "2023",
+     "quote": "DST BEV107, bevægelsesart B20A, summeret over de 27 hovedstads- og storbykommuner i DSTs kommunegruppering\n · gennemsnit af 1 målinger i 2023: 2.46766e+06",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 2497332,
+     "period": "2024",
+     "quote": "DST BEV107, bevægelsesart B20A, summeret over de 27 hovedstads- og storbykommuner i DSTs kommunegruppering\n · gennemsnit af 1 målinger i 2024: 2.49733e+06",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 2522319,
+     "period": "2025",
+     "quote": "DST BEV107, bevægelsesart B20A, summeret over de 27 hovedstads- og storbykommuner i DSTs kommunegruppering\n · gennemsnit af 1 målinger i 2025: 2.52232e+06",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "befolkning_landkommuner",
+   "label": "Befolkningen i landkommuner",
+   "grundlag": "maaling",
+   "unit": "antal",
+   "talart": "niveau",
+   "source": "DST BEV107, bevægelsesart B20A, summeret over de 31 landkommuner i DSTs kommunegruppering\n",
+   "sections": [
+    "demography"
+   ],
+   "terms": [
+    "landkommuner",
+    "landdistrikter",
+    "uden for byerne",
+    "provinsen"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 1168740,
+     "period": "2023",
+     "quote": "DST BEV107, bevægelsesart B20A, summeret over de 31 landkommuner i DSTs kommunegruppering\n · gennemsnit af 1 målinger i 2023: 1.16874e+06",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 1161463,
+     "period": "2024",
+     "quote": "DST BEV107, bevægelsesart B20A, summeret over de 31 landkommuner i DSTs kommunegruppering\n · gennemsnit af 1 målinger i 2024: 1.16146e+06",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 1156778,
+     "period": "2025",
+     "quote": "DST BEV107, bevægelsesart B20A, summeret over de 31 landkommuner i DSTs kommunegruppering\n · gennemsnit af 1 målinger i 2025: 1.15678e+06",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "befolkning_oem_2026",
+   "label": "Befolkning, årsgennemsnit (Økonomiministeriets skøn), 2026",
+   "grundlag": "husberegning",
+   "unit": "antal",
+   "talart": "niveau",
+   "source": "Økonomiministeriet, Økonomisk Redegørelse august 2026, Tabel B.3",
+   "sections": [
+    "demography"
+   ],
+   "terms": [
+    "befolkning",
+    "befolkningsfremskrivning",
+    "samlet befolkning",
+    "årsgennemsnit",
+    "fremskrivning"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2026,
+     "value": 5996000,
+     "period": "2026",
+     "quote": "Økonomiministeriets skøn, Økonomisk Redegørelse august 2026, Tabel B.3 s. 109. Opgjort som ÅRSGENNEMSNIT i 1.000 personer (5.996) og omregnet til personer. Må ikke sammenlignes med DST's opgørelse pr. 1. januar. · erklæret konstant for 2026: 5.996e+06",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "befolkning_oem_2027",
+   "label": "Befolkning, årsgennemsnit (Økonomiministeriets skøn), 2027",
+   "grundlag": "husberegning",
+   "unit": "antal",
+   "talart": "niveau",
+   "source": "Økonomiministeriet, Økonomisk Redegørelse august 2026, Tabel B.3",
+   "sections": [
+    "demography"
+   ],
+   "terms": [
+    "befolkning",
+    "befolkningsfremskrivning",
+    "samlet befolkning",
+    "årsgennemsnit",
+    "fremskrivning",
+    "2027"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2027,
+     "value": 6022000,
+     "period": "2027",
+     "quote": "Som befolkning_oem_2026, for 2027: 6.022.000 personer som årsgennemsnit. Svarer til en tilvækst på 26.000 personer fra 2026 til 2027 — men målt årsgennemsnit mod årsgennemsnit, ikke 1. januar mod 1. januar. · erklæret konstant for 2027: 6.022e+06",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "befolkning_primo",
+   "label": "Befolkningen 1. januar",
+   "grundlag": "maaling",
+   "unit": "antal",
+   "talart": "niveau",
+   "source": "DST BEF5, befolkningen 1. januar, hele landet",
+   "sections": [
+    "demography"
+   ],
+   "terms": [
+    "befolkning",
+    "befolkningstal",
+    "indbyggere",
+    "mio. personer"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 5932654,
+     "period": "2023",
+     "quote": "DST BEF5, befolkningen 1. januar, hele landet · gennemsnit af 1 målinger i 2023: 5.93265e+06",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 5961249,
+     "period": "2024",
+     "quote": "DST BEF5, befolkningen 1. januar, hele landet · gennemsnit af 1 målinger i 2024: 5.96125e+06",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 5992734,
+     "period": "2025",
+     "quote": "DST BEF5, befolkningen 1. januar, hele landet · gennemsnit af 1 målinger i 2025: 5.99273e+06",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 6025603,
+     "period": "2026",
+     "quote": "DST BEF5, befolkningen 1. januar, hele landet · gennemsnit af 1 målinger i 2026: 6.0256e+06",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "befolkningstilvaekst",
+   "label": "Befolkningstilvækst",
+   "grundlag": "maaling",
+   "unit": "antal",
+   "talart": "niveau",
+   "source": "DST BEV107, bevægelsesart B11 befolkningstilvækst, hele landet",
+   "sections": [
+    "demography",
+    "house_prices"
+   ],
+   "terms": [
+    "befolkningstilvækst",
+    "befolkningsvækst",
+    "befolkningsudvikling",
+    "flere indbyggere",
+    "indbyggertal"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 28595,
+     "period": "2023",
+     "quote": "DST BEV107, bevægelsesart B11 befolkningstilvækst, hele landet · gennemsnit af 1 målinger i 2023: 28595",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 31485,
+     "period": "2024",
+     "quote": "DST BEV107, bevægelsesart B11 befolkningstilvækst, hele landet · gennemsnit af 1 målinger i 2024: 31485",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 32869,
+     "period": "2025",
+     "quote": "DST BEV107, bevægelsesart B11 befolkningstilvækst, hele landet · gennemsnit af 1 målinger i 2025: 32869",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "befolkningstilvaekst_siden_2008",
+   "label": "Befolkningens tilvækst siden 2008, personer",
+   "grundlag": "husberegning",
+   "unit": "antal",
+   "talart": "delta",
+   "source": "Husberegning på DST BEF5",
+   "sections": [
+    "demography"
+   ],
+   "terms": [
+    "befolkning",
+    "siden 2008",
+    "personer",
+    "vokset",
+    "flere"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2026,
+     "value": 549812,
+     "period": "2008-2026",
+     "quote": "BEF5 befolkningen 1. januar i det senest udgivne år minus samme tal for 2008. Samme basisår som vækstraten.\n · 2008-2026: 6.0256e+06 - 5.47579e+06 = 549812",
+     "n_obs": 2
+    }
+   ]
+  },
+  {
+   "id": "befolkningsvaekst_siden_2008",
+   "label": "Befolkningens vækst siden 2008",
+   "grundlag": "husberegning",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "Husberegning på DST BEF5",
+   "sections": [
+    "demography"
+   ],
+   "terms": [
+    "befolkning",
+    "befolkningstal",
+    "siden 2008",
+    "stigning",
+    "vokset"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2026,
+     "value": 10,
+     "period": "2008-2026",
+     "quote": "BEF5 befolkningen 1. januar i det senest udgivne år divideret med samme tal for 2008, minus én. Basisåret er kapitlets eget valg og står i konfigurationen.\n · 2008-2026: 6.0256e+06 / 5.47579e+06 - 1 = 10 pct.",
+     "n_obs": 2
+    }
+   ]
+  },
+  {
+   "id": "bnp_2026_gulv",
+   "label": "BNP-vækst 2026, gulv givet offentliggjorte kvartaler",
+   "grundlag": "husberegning",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "Prognosecenteret på baggrund af DST NKN1 til og med 2026K2",
+   "sections": [
+    "economic_outlook",
+    "building_market"
+   ],
+   "terms": [
+    "BNP",
+    "bruttonationalprodukt",
+    "gulv",
+    "mindst",
+    "nationalregnskab"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2026,
+     "value": 3.6,
+     "period": "2026K2-basis",
+     "quote": "Regn baglæns fra kvartalsregnskabet (samme princip som CPI-reglen \"kan skønnet stadig nås\"): NKN1's sæsonkorrigerede kædetal til og med 2026K2 fremskrives med NUL vækst k/k i K3 og K4 (K3=K4=K2-niveauet 701,2). Årssummen 2026 mod årssummen 2025 giver da +3,64 pct. — afrundet NED til 3,6 som gulv. Årsvæksten 2026 kan altså ikke lande under 3,6 pct. uden direkte kvartalsfald; ved blot +0,3 pct. k/k i resten af året er den 3,9. Skøn fra foråret på ~2 pct. er dermed overhalet og må ikke citeres som forventningen. Beregnet 31. august 2026, NKN1 opdateret 20. august 2026. GENBEREGNES når NKN1 for 2026K3 udkommer. · erklæret bane, 2026K2-basis: 3.6",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "bnp_aa_seneste_kvartal",
+   "label": "BNP, realvækst å/å i seneste offentliggjorte kvartal",
+   "grundlag": "husberegning",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "Prognosecenteret på baggrund af DST NKN1 (kædede 2020-priser, sæsonkorrigeret)",
+   "sections": [
+    "economic_outlook",
+    "building_market"
+   ],
+   "terms": [
+    "BNP",
+    "bruttonationalprodukt",
+    "nationalregnskab"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2025,
+     "value": 3.2,
+     "period": "2025K4",
+     "quote": "Å/å-vækst af NKN1's sæsonkorrigerede kædede 2020-pris-niveauer (B1GQK, LKV_M): kvartalets niveau mod samme kvartal året før. 2025 er 4. kvartal (688,6 mod 667,4); 2026 er 2. kvartal (701,2 mod 670,5) — 1. kvartal 2026 var +6,1. Beregnet 31. august 2026 på NKN1 opdateret 20. august 2026 (til og med 2026K2). · erklæret bane, 2025K4: 3.2",
+     "n_obs": 0
+    },
+    {
+     "year": 2026,
+     "value": 4.6,
+     "period": "2026K2",
+     "quote": "Å/å-vækst af NKN1's sæsonkorrigerede kædede 2020-pris-niveauer (B1GQK, LKV_M): kvartalets niveau mod samme kvartal året før. 2025 er 4. kvartal (688,6 mod 667,4); 2026 er 2. kvartal (701,2 mod 670,5) — 1. kvartal 2026 var +6,1. Beregnet 31. august 2026 på NKN1 opdateret 20. august 2026 (til og med 2026K2). · erklæret bane, 2026K2: 4.6",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "bnp_kvartal_kk",
+   "label": "BNP, realvækst kvartal over kvartal (sæsonkorrigeret)",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "DST NKN1, B1GQ BNP, realvækst ift. foregående kvartal, sæsonkorrigeret",
+   "sections": [
+    "economic_outlook",
+    "building_market"
+   ],
+   "terms": [
+    "BNP",
+    "bruttonationalprodukt",
+    "kvartal",
+    "nationalregnskab"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": -1.5,
+     "period": "2023K02",
+     "quote": "DST NKN1, B1GQ BNP, realvækst ift. foregående kvartal, sæsonkorrigeret · samme periode året før, sæsonsikret 2023K02: -1.5",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 1.9,
+     "period": "2024K02",
+     "quote": "DST NKN1, B1GQ BNP, realvækst ift. foregående kvartal, sæsonkorrigeret · samme periode året før, sæsonsikret 2024K02: 1.9",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 1.7,
+     "period": "2025K02",
+     "quote": "DST NKN1, B1GQ BNP, realvækst ift. foregående kvartal, sæsonkorrigeret · samme periode året før, sæsonsikret 2025K02: 1.7",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 0.3,
+     "period": "2026K02",
+     "quote": "DST NKN1, B1GQ BNP, realvækst ift. foregående kvartal, sæsonkorrigeret · samme periode året før, sæsonsikret 2026K02: 0.3",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "boligbehov_aarligt",
+   "label": "Årligt boligbehov frem mod 2040",
+   "grundlag": "husberegning",
+   "unit": "antal",
+   "talart": "niveau",
+   "source": "Prognosecenteret, tommelfingerregel",
+   "sections": [
+    "demography"
+   ],
+   "terms": [
+    "boligbehov",
+    "behov for nybyggeri",
+    "frem mod 2040",
+    "mindst 28.000"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2040,
+     "value": 28000,
+     "period": "2040",
+     "quote": "Tommelfingerregel: et nogenlunde konstant årligt boligbehov på mindst 28.000 boliger frem mod 2040. Ikke afledt af en enkelt statistik, men husets eget arbejdstal, holdt fast på tværs af prognoser.\n · erklæret konstant for 2040: 28000",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "boligmasse_1960_1979",
+   "label": "Boligmassens etageareal opført 1960-1979",
+   "grundlag": "maaling",
+   "unit": "antal",
+   "talart": "niveau",
+   "source": "DST BYGB34, etageareal opført 1960-1979 for parcelhuse, etageboliger og række-/kæde-/dobbelthuse",
+   "sections": [
+    "rm_residential"
+   ],
+   "terms": [
+    "boligmasse",
+    "bygningsmasse",
+    "1960",
+    "1979",
+    "efterkrigsårgang",
+    "aldrende boligmasse",
+    "opførelsesår",
+    "årgang",
+    "BR77",
+    "energikrav"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 98169,
+     "period": "2023",
+     "quote": "DST BYGB34, etageareal opført 1960-1979 for parcelhuse, etageboliger og række-/kæde-/dobbelthuse · gennemsnit af 1 målinger i 2023: 98169",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 98193,
+     "period": "2024",
+     "quote": "DST BYGB34, etageareal opført 1960-1979 for parcelhuse, etageboliger og række-/kæde-/dobbelthuse · gennemsnit af 1 målinger i 2024: 98193",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 98220,
+     "period": "2025",
+     "quote": "DST BYGB34, etageareal opført 1960-1979 for parcelhuse, etageboliger og række-/kæde-/dobbelthuse · gennemsnit af 1 målinger i 2025: 98220",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "boligmasse_1960_1979_andel",
+   "label": "Andel af boligmassen opført 1960-1979",
+   "grundlag": "husberegning",
+   "unit": "pct",
+   "talart": "andel",
+   "source": "Prognosecenteret på baggrund af DST BYGB34",
+   "sections": [
+    "rm_residential"
+   ],
+   "terms": [
+    "boligmasse",
+    "andel",
+    "1960",
+    "1979",
+    "aldrende boligmasse",
+    "årgang"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2025,
+     "value": 29.9,
+     "period": "2025",
+     "quote": "Etagearealet opført 1960-1979 i pct. af det samlede etageareal for de tre boligtyper, begge målt i DST BYGB34 for samme år. Andelen er den relevante størrelse, fordi den siger hvor stor en del af bestanden der samtidig er over normal udskiftningsalder for tag, vinduer og facade og opført før de første energikrav i BR77. · 2025: 98220 / 328422 = 29.9 pct.",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "boligmasse_i_alt",
+   "label": "Boligmassens etageareal i alt",
+   "grundlag": "maaling",
+   "unit": "antal",
+   "talart": "niveau",
+   "source": "DST BYGB34, samlet etageareal for parcelhuse, etageboliger og række-/kæde-/dobbelthuse",
+   "sections": [
+    "rm_residential"
+   ],
+   "terms": [
+    "boligmasse",
+    "bygningsmasse",
+    "etageareal",
+    "boligbestand",
+    "bygningsbestand"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 322035,
+     "period": "2023",
+     "quote": "DST BYGB34, samlet etageareal for parcelhuse, etageboliger og række-/kæde-/dobbelthuse · gennemsnit af 1 målinger i 2023: 322035",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 325663,
+     "period": "2024",
+     "quote": "DST BYGB34, samlet etageareal for parcelhuse, etageboliger og række-/kæde-/dobbelthuse · gennemsnit af 1 målinger i 2024: 325663",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 328422,
+     "period": "2025",
+     "quote": "DST BYGB34, samlet etageareal for parcelhuse, etageboliger og række-/kæde-/dobbelthuse · gennemsnit af 1 målinger i 2025: 328422",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "boligprisbane_enfamiliehuse",
+   "label": "Boligprisbane, enfamiliehuse (å/å i 4. kvartal, husets prognose)",
+   "grundlag": "husberegning",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "Prognosecenteret (Tobins Q - autoudtræk.xlsx); historik DST EJ56",
+   "sections": [
+    "house_prices"
+   ],
+   "terms": [
+    "enfamiliehus",
+    "enfamiliehuse",
+    "parcelhus"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2025,
+     "value": 7.2,
+     "period": "2025K4",
+     "quote": "Å/å-vækst i 4. kvartal af husets kvartalsprisbane for enfamiliehuse i 'Tobins Q - autoudtræk.xlsx' (arket 'Til manuel figur'). 2025 er realiseret EJ56; 2026-2028 er prognosebanen. Aflæst 28. august 2026. · erklæret bane, 2025K4: 7.2",
+     "n_obs": 0
+    },
+    {
+     "year": 2026,
+     "value": 6,
+     "period": "2026K4",
+     "quote": "Å/å-vækst i 4. kvartal af husets kvartalsprisbane for enfamiliehuse i 'Tobins Q - autoudtræk.xlsx' (arket 'Til manuel figur'). 2025 er realiseret EJ56; 2026-2028 er prognosebanen. Aflæst 28. august 2026. · erklæret bane, 2026K4: 6",
+     "n_obs": 0
+    },
+    {
+     "year": 2027,
+     "value": 2.5,
+     "period": "2027K4",
+     "quote": "Å/å-vækst i 4. kvartal af husets kvartalsprisbane for enfamiliehuse i 'Tobins Q - autoudtræk.xlsx' (arket 'Til manuel figur'). 2025 er realiseret EJ56; 2026-2028 er prognosebanen. Aflæst 28. august 2026. · erklæret bane, 2027K4: 2.5",
+     "n_obs": 0
+    },
+    {
+     "year": 2028,
+     "value": 2.5,
+     "period": "2028K4",
+     "quote": "Å/å-vækst i 4. kvartal af husets kvartalsprisbane for enfamiliehuse i 'Tobins Q - autoudtræk.xlsx' (arket 'Til manuel figur'). 2025 er realiseret EJ56; 2026-2028 er prognosebanen. Aflæst 28. august 2026. · erklæret bane, 2028K4: 2.5",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "boligprisbane_etageboliger",
+   "label": "Boligprisbane, etageboliger (å/å i 4. kvartal, husets prognose)",
+   "grundlag": "husberegning",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "Prognosecenteret (Tobins Q - autoudtræk.xlsx); historik DST EJ56",
+   "sections": [
+    "house_prices"
+   ],
+   "terms": [
+    "etagebolig",
+    "etageboliger",
+    "ejerlejlighed",
+    "lejlighed"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2025,
+     "value": 13,
+     "period": "2025K4",
+     "quote": "Å/å-vækst i 4. kvartal af husets kvartalsprisbane for etageboliger i 'Tobins Q - autoudtræk.xlsx' (arket 'Til manuel figur'; prisindekset ER DST EJ56 pr. kategori, efterprøvet 26. august 2026). 2025 er realiseret EJ56; 2026-2028 er prognosebanen. Aflæst 28. august 2026. · erklæret bane, 2025K4: 13",
+     "n_obs": 0
+    },
+    {
+     "year": 2026,
+     "value": 12,
+     "period": "2026K4",
+     "quote": "Å/å-vækst i 4. kvartal af husets kvartalsprisbane for etageboliger i 'Tobins Q - autoudtræk.xlsx' (arket 'Til manuel figur'; prisindekset ER DST EJ56 pr. kategori, efterprøvet 26. august 2026). 2025 er realiseret EJ56; 2026-2028 er prognosebanen. Aflæst 28. august 2026. · erklæret bane, 2026K4: 12",
+     "n_obs": 0
+    },
+    {
+     "year": 2027,
+     "value": 2.5,
+     "period": "2027K4",
+     "quote": "Å/å-vækst i 4. kvartal af husets kvartalsprisbane for etageboliger i 'Tobins Q - autoudtræk.xlsx' (arket 'Til manuel figur'; prisindekset ER DST EJ56 pr. kategori, efterprøvet 26. august 2026). 2025 er realiseret EJ56; 2026-2028 er prognosebanen. Aflæst 28. august 2026. · erklæret bane, 2027K4: 2.5",
+     "n_obs": 0
+    },
+    {
+     "year": 2028,
+     "value": 2,
+     "period": "2028K4",
+     "quote": "Å/å-vækst i 4. kvartal af husets kvartalsprisbane for etageboliger i 'Tobins Q - autoudtræk.xlsx' (arket 'Til manuel figur'; prisindekset ER DST EJ56 pr. kategori, efterprøvet 26. august 2026). 2025 er realiseret EJ56; 2026-2028 er prognosebanen. Aflæst 28. august 2026. · erklæret bane, 2028K4: 2",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "boligprisbane_sommerhuse",
+   "label": "Boligprisvækst, sommerhuse (å/å i 4. kvartal 2025, realiseret)",
+   "grundlag": "husberegning",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "Prognosecenteret (Tobins Q - autoudtræk.xlsx); historik DST EJ56",
+   "sections": [
+    "house_prices"
+   ],
+   "terms": [
+    "sommerhus",
+    "sommerhuse",
+    "fritidsbolig"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2025,
+     "value": 5.2,
+     "period": "2025K4",
+     "quote": "Å/å-vækst i 4. kvartal 2025 af sommerhusprisindekset (EJ56) i 'Tobins Q - autoudtræk.xlsx'. Arket har ingen prognosebane for sommerhuse, så kun det realiserede år leveres. Aflæst 28. august 2026. · erklæret bane, 2025K4: 5.2",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "boligpriser_enfamiliehuse",
+   "label": "Boligpriser, enfamiliehuse",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "DST EJ56, boligpriser, enfamiliehuse, ændring ift. samme kvartal året før",
+   "sections": [
+    "house_prices",
+    "new_residential"
+   ],
+   "terms": [
+    "enfamiliehuse",
+    "parcelhuse",
+    "huspriser",
+    "villaer",
+    "boligpriser"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": -6.6,
+     "period": "2023K01",
+     "quote": "DST EJ56, boligpriser, enfamiliehuse, ændring ift. samme kvartal året før · samme periode året før, sæsonsikret 2023K01: -6.6",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 3.6,
+     "period": "2024K01",
+     "quote": "DST EJ56, boligpriser, enfamiliehuse, ændring ift. samme kvartal året før · samme periode året før, sæsonsikret 2024K01: 3.6",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 5.5,
+     "period": "2025K01",
+     "quote": "DST EJ56, boligpriser, enfamiliehuse, ændring ift. samme kvartal året før · samme periode året før, sæsonsikret 2025K01: 5.5",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 7.5,
+     "period": "2026K01",
+     "quote": "DST EJ56, boligpriser, enfamiliehuse, ændring ift. samme kvartal året før · samme periode året før, sæsonsikret 2026K01: 7.5",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "boligpriser_etageboliger",
+   "label": "Boligpriser, etageboliger",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "DST EJ56, boligpriser, etageboliger, ændring ift. samme kvartal året før",
+   "sections": [
+    "house_prices",
+    "new_residential"
+   ],
+   "terms": [
+    "etageboliger",
+    "ejerlejligheder",
+    "lejligheder",
+    "priser på lejligheder",
+    "boligpriser"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": -7.1,
+     "period": "2023K01",
+     "quote": "DST EJ56, boligpriser, etageboliger, ændring ift. samme kvartal året før · samme periode året før, sæsonsikret 2023K01: -7.1",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 3.8,
+     "period": "2024K01",
+     "quote": "DST EJ56, boligpriser, etageboliger, ændring ift. samme kvartal året før · samme periode året før, sæsonsikret 2024K01: 3.8",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 8.6,
+     "period": "2025K01",
+     "quote": "DST EJ56, boligpriser, etageboliger, ændring ift. samme kvartal året før · samme periode året før, sæsonsikret 2025K01: 8.6",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 15.8,
+     "period": "2026K01",
+     "quote": "DST EJ56, boligpriser, etageboliger, ændring ift. samme kvartal året før · samme periode året før, sæsonsikret 2026K01: 15.8",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "boligpriser_sommerhuse",
+   "label": "Boligpriser, sommerhuse",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "DST EJ56, boligpriser, sommerhuse, ændring ift. samme kvartal året før",
+   "sections": [
+    "house_prices",
+    "new_residential"
+   ],
+   "terms": [
+    "sommerhuse",
+    "fritidshuse",
+    "sommerhusmarkedet",
+    "boligpriser"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": -1,
+     "period": "2023K01",
+     "quote": "DST EJ56, boligpriser, sommerhuse, ændring ift. samme kvartal året før · samme periode året før, sæsonsikret 2023K01: -1",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 3.1,
+     "period": "2024K01",
+     "quote": "DST EJ56, boligpriser, sommerhuse, ændring ift. samme kvartal året før · samme periode året før, sæsonsikret 2024K01: 3.1",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 4.4,
+     "period": "2025K01",
+     "quote": "DST EJ56, boligpriser, sommerhuse, ændring ift. samme kvartal året før · samme periode året før, sæsonsikret 2025K01: 4.4",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 8.4,
+     "period": "2026K01",
+     "quote": "DST EJ56, boligpriser, sommerhuse, ændring ift. samme kvartal året før · samme periode året før, sæsonsikret 2026K01: 8.4",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "byggeomkostninger_arbejdsloen",
+   "label": "Byggeomkostninger, arbejdsomkostninger",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "DST BYG43, boliger, ART=1006 arbejdsomkostninger, ændring ift. samme kvartal året før",
+   "sections": [
+    "supply_side"
+   ],
+   "terms": [
+    "arbejdsomkostninger",
+    "lønandel",
+    "løn i byggeomkostningerne"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 2.9,
+     "period": "2023",
+     "quote": "DST BYG43, boliger, ART=1006 arbejdsomkostninger, ændring ift. samme kvartal året før · gennemsnit af 4 målinger i 2023: 2.9",
+     "n_obs": 4
+    },
+    {
+     "year": 2024,
+     "value": 3.8,
+     "period": "2024",
+     "quote": "DST BYG43, boliger, ART=1006 arbejdsomkostninger, ændring ift. samme kvartal året før · gennemsnit af 4 målinger i 2024: 3.8",
+     "n_obs": 4
+    },
+    {
+     "year": 2025,
+     "value": 2,
+     "period": "2025",
+     "quote": "DST BYG43, boliger, ART=1006 arbejdsomkostninger, ændring ift. samme kvartal året før · gennemsnit af 4 målinger i 2025: 2",
+     "n_obs": 4
+    },
+    {
+     "year": 2026,
+     "value": 3.1,
+     "period": "2026K01",
+     "quote": "DST BYG43, boliger, ART=1006 arbejdsomkostninger, ændring ift. samme kvartal året før · senest målt 2026K01: 3.1",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "byggeomkostninger_bolig",
+   "label": "Byggeomkostninger, boliger i alt",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "DST BYG43, boliger i alt, ændring ift. samme kvartal året før",
+   "sections": [
+    "supply_side",
+    "building_market",
+    "new_residential"
+   ],
+   "terms": [
+    "byggeomkostninger",
+    "byggeomkostningsindeks",
+    "omkostningsvækst",
+    "byggepriser",
+    "omkostninger i byggeriet"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 4.5,
+     "period": "2023",
+     "quote": "DST BYG43, boliger i alt, ændring ift. samme kvartal året før · gennemsnit af 4 målinger i 2023: 4.5",
+     "n_obs": 4
+    },
+    {
+     "year": 2024,
+     "value": 1.5,
+     "period": "2024",
+     "quote": "DST BYG43, boliger i alt, ændring ift. samme kvartal året før · gennemsnit af 4 målinger i 2024: 1.5",
+     "n_obs": 4
+    },
+    {
+     "year": 2025,
+     "value": 2,
+     "period": "2025",
+     "quote": "DST BYG43, boliger i alt, ændring ift. samme kvartal året før · gennemsnit af 4 målinger i 2025: 2",
+     "n_obs": 4
+    },
+    {
+     "year": 2026,
+     "value": 1.6,
+     "period": "2026K01",
+     "quote": "DST BYG43, boliger i alt, ændring ift. samme kvartal året før · senest målt 2026K01: 1.6",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "byggeomkostninger_materialer",
+   "label": "Byggeomkostninger, materialedelen",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "DST BYG43, boliger, ART=1004 materialer, ændring ift. samme kvartal året før",
+   "sections": [
+    "supply_side",
+    "building_market"
+   ],
+   "terms": [
+    "materialedelen",
+    "materialeomkostninger",
+    "materialer i byggeriet"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 5.2,
+     "period": "2023",
+     "quote": "DST BYG43, boliger, ART=1004 materialer, ændring ift. samme kvartal året før · gennemsnit af 4 målinger i 2023: 5.2",
+     "n_obs": 4
+    },
+    {
+     "year": 2024,
+     "value": 0.4,
+     "period": "2024",
+     "quote": "DST BYG43, boliger, ART=1004 materialer, ændring ift. samme kvartal året før · gennemsnit af 4 målinger i 2024: 0.4",
+     "n_obs": 4
+    },
+    {
+     "year": 2025,
+     "value": 2,
+     "period": "2025",
+     "quote": "DST BYG43, boliger, ART=1004 materialer, ændring ift. samme kvartal året før · gennemsnit af 4 målinger i 2025: 2",
+     "n_obs": 4
+    },
+    {
+     "year": 2026,
+     "value": 0.8,
+     "period": "2026K01",
+     "quote": "DST BYG43, boliger, ART=1004 materialer, ændring ift. samme kvartal året før · senest målt 2026K01: 0.8",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "eksport_2026_gulv",
+   "label": "Eksportvækst 2026, gulv givet offentliggjorte kvartaler",
+   "grundlag": "husberegning",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "Prognosecenteret på baggrund af DST NKN1 P6D til og med 2026K2",
+   "sections": [
+    "economic_outlook"
+   ],
+   "terms": [
+    "eksport",
+    "eksporten",
+    "gulv",
+    "mindst",
+    "nationalregnskab"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2026,
+     "value": 5.6,
+     "period": "2026K2-basis",
+     "quote": "Samme carry-forward som BNP-gulvet: NKN1 P6D (eksport af varer og tjenester, sæsonkorrigerede kædede 2020-priser) til og med 2026K2, K3=K4=K2-niveauet → +5,6 pct. mod 2025. Å/å var +10,6 i 2026K1 og +5,8 i 2026K2. Konsensus på 2,7 er dermed aritmetisk umulig og bæres af forårsskøn — må ikke citeres som forventningen. Beregnet 31. august 2026, NKN1 opdateret 20. august 2026. GENBEREGNES ved 2026K3. · erklæret bane, 2026K2-basis: 5.6",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "erhvervstillid",
+   "label": "Erhvervstillidsindikator, i alt",
+   "grundlag": "maaling",
+   "unit": "indeks",
+   "talart": "niveau",
+   "source": "DST ETILLID, indikator TE — erhvervstillidsindikator for erhvervene i alt",
+   "sections": [
+    "rm_non_residential",
+    "economic_outlook",
+    "new_non_residential"
+   ],
+   "terms": [
+    "erhvervstillid",
+    "tillidsindikator",
+    "investeringslyst",
+    "erhvervsklima",
+    "virksomhedernes forventninger"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 100.6,
+     "period": "2023M08",
+     "quote": "DST ETILLID, indikator TE — erhvervstillidsindikator for erhvervene i alt · samme periode året før, sæsonsikret 2023M08: 100.6",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 102.5,
+     "period": "2024M08",
+     "quote": "DST ETILLID, indikator TE — erhvervstillidsindikator for erhvervene i alt · samme periode året før, sæsonsikret 2024M08: 102.5",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 102.7,
+     "period": "2025M08",
+     "quote": "DST ETILLID, indikator TE — erhvervstillidsindikator for erhvervene i alt · samme periode året før, sæsonsikret 2025M08: 102.7",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 106.7,
+     "period": "2026M08",
+     "quote": "DST ETILLID, indikator TE — erhvervstillidsindikator for erhvervene i alt · samme periode året før, sæsonsikret 2026M08: 106.7",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "erhvervstillid_bygge",
+   "label": "Tillidsindikator, bygge og anlæg",
+   "grundlag": "maaling",
+   "unit": "indeks",
+   "talart": "niveau",
+   "source": "DST ETILLID, indikator KBB — tillidsindikator for bygge og anlæg",
+   "sections": [
+    "rm_non_residential",
+    "supply_side",
+    "building_market"
+   ],
+   "terms": [
+    "erhvervstillid",
+    "tillidsindikator",
+    "bygge og anlæg",
+    "branchetillid"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 98.1,
+     "period": "2023M08",
+     "quote": "DST ETILLID, indikator KBB — tillidsindikator for bygge og anlæg · samme periode året før, sæsonsikret 2023M08: 98.1",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 101.7,
+     "period": "2024M08",
+     "quote": "DST ETILLID, indikator KBB — tillidsindikator for bygge og anlæg · samme periode året før, sæsonsikret 2024M08: 101.7",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 100.6,
+     "period": "2025M08",
+     "quote": "DST ETILLID, indikator KBB — tillidsindikator for bygge og anlæg · samme periode året før, sæsonsikret 2025M08: 100.6",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 100.4,
+     "period": "2026M08",
+     "quote": "DST ETILLID, indikator KBB — tillidsindikator for bygge og anlæg · samme periode året før, sæsonsikret 2026M08: 100.4",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "flytninger",
+   "label": "Samtlige flytninger",
+   "grundlag": "maaling",
+   "unit": "antal",
+   "talart": "niveau",
+   "source": "DST FLY, samtlige flytninger, hele landet",
+   "sections": [
+    "rm_residential",
+    "house_prices",
+    "demography"
+   ],
+   "terms": [
+    "flytninger",
+    "flytning",
+    "boligskift",
+    "mobilitet",
+    "antal flytninger"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 854008,
+     "period": "2023",
+     "quote": "DST FLY, samtlige flytninger, hele landet · gennemsnit af 1 målinger i 2023: 854008",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 838147,
+     "period": "2024",
+     "quote": "DST FLY, samtlige flytninger, hele landet · gennemsnit af 1 målinger i 2024: 838147",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 861718,
+     "period": "2025",
+     "quote": "DST FLY, samtlige flytninger, hele landet · gennemsnit af 1 målinger i 2025: 861718",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "foedselsoverskud",
+   "label": "Fødselsoverskud",
+   "grundlag": "maaling",
+   "unit": "antal",
+   "talart": "niveau",
+   "source": "DST BEV107, bevægelsesart B04 fødselsoverskud, hele landet",
+   "sections": [
+    "demography"
+   ],
+   "terms": [
+    "fødselsoverskud",
+    "levendefødte",
+    "fødsler",
+    "dødsfald",
+    "flere fødte end døde"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": -915,
+     "period": "2023",
+     "quote": "DST BEV107, bevægelsesart B04 fødselsoverskud, hele landet · gennemsnit af 1 målinger i 2023: -915",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 8,
+     "period": "2024",
+     "quote": "DST BEV107, bevægelsesart B04 fødselsoverskud, hele landet · gennemsnit af 1 målinger i 2024: 8",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 1258,
+     "period": "2025",
+     "quote": "DST BEV107, bevægelsesart B04 fødselsoverskud, hele landet · gennemsnit af 1 målinger i 2025: 1258",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "forudsigelighed_netto_opforelse",
+   "label": "Nettotal for forudsigelighed, opførelse af bygninger",
+   "grundlag": "maaling",
+   "unit": "nettotal",
+   "talart": "niveau",
+   "source": "DST KBB04, branche F41, nettotal",
+   "sections": [
+    "supply_side"
+   ],
+   "terms": [
+    "forudsige",
+    "forudsigelighed",
+    "nettotal",
+    "uforudsigelig"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": -10,
+     "period": "2023M08",
+     "quote": "DST KBB04, branche F41, nettotal · samme periode året før, sæsonsikret 2023M08: -10",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": -19,
+     "period": "2024M08",
+     "quote": "DST KBB04, branche F41, nettotal · samme periode året før, sæsonsikret 2024M08: -19",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": -16,
+     "period": "2025M08",
+     "quote": "DST KBB04, branche F41, nettotal · samme periode året før, sæsonsikret 2025M08: -16",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": -24,
+     "period": "2026M08",
+     "quote": "DST KBB04, branche F41, nettotal · samme periode året før, sæsonsikret 2026M08: -24",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "frr_bygge_anlaeg",
+   "label": "Forgæves rekrutteringsrate (FRR), bygge og anlæg",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "STAR Rekrutteringssurvey via Jobindsats Y25i14, erhvervsgruppe Bygge og anlæg, hele landet — andel af rekrutteringsforsøg der var forgæves (ubesat eller besat med anden profil)",
+   "sections": [
+    "supply_side"
+   ],
+   "terms": [
+    "forgæves",
+    "forgæves rekrutteringsrate",
+    "FRR",
+    "rekrutteringsforsøg",
+    "rekrutter"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 36,
+     "period": "2023M06",
+     "quote": "STAR Rekrutteringssurvey via Jobindsats Y25i14, erhvervsgruppe Bygge og anlæg, hele landet — andel af rekrutteringsforsøg der var forgæves (ubesat eller besat med anden profil) · samme periode året før, sæsonsikret 2023M06: 36",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 35,
+     "period": "2024M06",
+     "quote": "STAR Rekrutteringssurvey via Jobindsats Y25i14, erhvervsgruppe Bygge og anlæg, hele landet — andel af rekrutteringsforsøg der var forgæves (ubesat eller besat med anden profil) · samme periode året før, sæsonsikret 2024M06: 35",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 35,
+     "period": "2025M06",
+     "quote": "STAR Rekrutteringssurvey via Jobindsats Y25i14, erhvervsgruppe Bygge og anlæg, hele landet — andel af rekrutteringsforsøg der var forgæves (ubesat eller besat med anden profil) · samme periode året før, sæsonsikret 2025M06: 35",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 29,
+     "period": "2026M06",
+     "quote": "STAR Rekrutteringssurvey via Jobindsats Y25i14, erhvervsgruppe Bygge og anlæg, hele landet — andel af rekrutteringsforsøg der var forgæves (ubesat eller besat med anden profil) · samme periode året før, sæsonsikret 2026M06: 29",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "handler_enfamiliehuse",
+   "label": "Antal handler, enfamiliehuse",
+   "grundlag": "maaling",
+   "unit": "antal",
+   "talart": "niveau",
+   "source": "DST EJEN77, beregnet antal salg, almindelig fri handel",
+   "sections": [
+    "house_prices",
+    "new_residential"
+   ],
+   "terms": [
+    "handler",
+    "antal handler",
+    "handelsaktivitet",
+    "salg",
+    "bolighandler",
+    "omsætning",
+    "enfamiliehuse",
+    "parcelhuse"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 10443,
+     "period": "2023K01",
+     "quote": "DST EJEN77, beregnet antal salg, almindelig fri handel · samme periode året før, sæsonsikret 2023K01: 10443",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 11310,
+     "period": "2024K01",
+     "quote": "DST EJEN77, beregnet antal salg, almindelig fri handel · samme periode året før, sæsonsikret 2024K01: 11310",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 13430,
+     "period": "2025K01",
+     "quote": "DST EJEN77, beregnet antal salg, almindelig fri handel · samme periode året før, sæsonsikret 2025K01: 13430",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 13086,
+     "period": "2026K01",
+     "quote": "DST EJEN77, beregnet antal salg, almindelig fri handel · samme periode året før, sæsonsikret 2026K01: 13086",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "handler_etageboliger",
+   "label": "Antal handler, ejerlejligheder",
+   "grundlag": "maaling",
+   "unit": "antal",
+   "talart": "niveau",
+   "source": "DST EJEN77, beregnet antal salg, almindelig fri handel",
+   "sections": [
+    "house_prices",
+    "new_residential"
+   ],
+   "terms": [
+    "handler",
+    "antal handler",
+    "handelsaktivitet",
+    "salg",
+    "bolighandler",
+    "omsætning",
+    "ejerlejligheder",
+    "etageboliger"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 3568,
+     "period": "2023K01",
+     "quote": "DST EJEN77, beregnet antal salg, almindelig fri handel · samme periode året før, sæsonsikret 2023K01: 3568",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 3534,
+     "period": "2024K01",
+     "quote": "DST EJEN77, beregnet antal salg, almindelig fri handel · samme periode året før, sæsonsikret 2024K01: 3534",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 4961,
+     "period": "2025K01",
+     "quote": "DST EJEN77, beregnet antal salg, almindelig fri handel · samme periode året før, sæsonsikret 2025K01: 4961",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 4983,
+     "period": "2026K01",
+     "quote": "DST EJEN77, beregnet antal salg, almindelig fri handel · samme periode året før, sæsonsikret 2026K01: 4983",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "handler_sommerhuse",
+   "label": "Antal handler, sommerhuse",
+   "grundlag": "maaling",
+   "unit": "antal",
+   "talart": "niveau",
+   "source": "DST EJEN77, beregnet antal salg, almindelig fri handel",
+   "sections": [
+    "house_prices",
+    "new_residential"
+   ],
+   "terms": [
+    "handler",
+    "antal handler",
+    "handelsaktivitet",
+    "salg",
+    "bolighandler",
+    "omsætning",
+    "sommerhuse",
+    "fritidshuse"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 1534,
+     "period": "2023K01",
+     "quote": "DST EJEN77, beregnet antal salg, almindelig fri handel · samme periode året før, sæsonsikret 2023K01: 1534",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 1628,
+     "period": "2024K01",
+     "quote": "DST EJEN77, beregnet antal salg, almindelig fri handel · samme periode året før, sæsonsikret 2024K01: 1628",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 2083,
+     "period": "2025K01",
+     "quote": "DST EJEN77, beregnet antal salg, almindelig fri handel · samme periode året før, sæsonsikret 2025K01: 2083",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 2191,
+     "period": "2026K01",
+     "quote": "DST EJEN77, beregnet antal salg, almindelig fri handel · samme periode året før, sæsonsikret 2026K01: 2191",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "hicp",
+   "label": "HICP-inflation",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "DST PRIS07, HICP i alt, ændring ift. samme måned året før",
+   "sections": [
+    "economic_outlook",
+    "house_prices"
+   ],
+   "terms": [
+    "hicp",
+    "harmoniseret",
+    "inflation",
+    "forbrugerpris",
+    "prisstigning"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 3.4,
+     "period": "2023",
+     "quote": "DST PRIS07, HICP i alt, ændring ift. samme måned året før · gennemsnit af 12 målinger i 2023: 3.4",
+     "n_obs": 12
+    },
+    {
+     "year": 2024,
+     "value": 1.3,
+     "period": "2024",
+     "quote": "DST PRIS07, HICP i alt, ændring ift. samme måned året før · gennemsnit af 12 målinger i 2024: 1.3",
+     "n_obs": 12
+    },
+    {
+     "year": 2025,
+     "value": 1.8,
+     "period": "2025",
+     "quote": "DST PRIS07, HICP i alt, ændring ift. samme måned året før · gennemsnit af 12 målinger i 2025: 1.8",
+     "n_obs": 12
+    },
+    {
+     "year": 2026,
+     "value": 1.6,
+     "period": "2026M07",
+     "quote": "DST PRIS07, HICP i alt, ændring ift. samme måned året før · senest målt 2026M07: 1.6",
+     "n_obs": 7
+    }
+   ]
+  },
+  {
+   "id": "hormuz_gennemslag_materialepriser",
+   "label": "Hormuz-lukningens samlede løft af materialepriserne ved fuld indfasning",
+   "grundlag": "husberegning",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "Prognosecenteret (P1-dossier build_cost-haendelseslag.md, DEL C)",
+   "sections": [
+    "supply_side",
+    "building_market",
+    "economic_outlook"
+   ],
+   "terms": [
+    "Hormuz",
+    "Hormuzstrædet",
+    "fuld indfasning",
+    "gennemslag",
+    "energipriser",
+    "oliepriser"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2026,
+     "value": 3,
+     "period": "2026",
+     "quote": "Prognosecenterets eget skøn. Energibane (EIA STEO august 2026: Brent 86,69 USD i 2026 mod 69,10 i 2025) gange husets målte gennemslag fra energipris til byggeomkostning (OLS, årsvækst, lead 1, 2004-2025: b = 0,035 pp pr. pp energivækst, bånd 0,026-0,035). Dokumenteret i P1-dossieret build_cost-haendelseslag.md, DEL C. Fastholdt 18. august 2026 efter juli-tallet. · erklæret konstant for 2026: 3",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "husholdningernes_bruttoopsparing",
+   "label": "Husholdningernes bruttoopsparing",
+   "grundlag": "maaling",
+   "unit": "mia_kr",
+   "talart": "niveau",
+   "source": "DST NAN3, B.8g bruttoopsparing, husholdninger og NPISH, løbende priser",
+   "sections": [
+    "rm_residential",
+    "economic_outlook"
+   ],
+   "terms": [
+    "opsparing",
+    "bruttoopsparing",
+    "opsparingskvote"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 217.6,
+     "period": "2023",
+     "quote": "DST NAN3, B.8g bruttoopsparing, husholdninger og NPISH, løbende priser · gennemsnit af 1 målinger i 2023: 217.6",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 214.6,
+     "period": "2024",
+     "quote": "DST NAN3, B.8g bruttoopsparing, husholdninger og NPISH, løbende priser · gennemsnit af 1 målinger i 2024: 214.6",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 236,
+     "period": "2025",
+     "quote": "DST NAN3, B.8g bruttoopsparing, husholdninger og NPISH, løbende priser · gennemsnit af 1 målinger i 2025: 236",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "husstande",
+   "label": "Antal husstande",
+   "grundlag": "maaling",
+   "unit": "antal",
+   "talart": "niveau",
+   "source": "DST FAM55N, husstande 1. januar, hele landet, alle husstandstyper",
+   "sections": [
+    "demography"
+   ],
+   "terms": [
+    "husstande",
+    "husstand",
+    "husholdninger",
+    "personer pr. husstand"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 2814782,
+     "period": "2023",
+     "quote": "DST FAM55N, husstande 1. januar, hele landet, alle husstandstyper · gennemsnit af 1 målinger i 2023: 2.81478e+06",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 2834240,
+     "period": "2024",
+     "quote": "DST FAM55N, husstande 1. januar, hele landet, alle husstandstyper · gennemsnit af 1 målinger i 2024: 2.83424e+06",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 2857302,
+     "period": "2025",
+     "quote": "DST FAM55N, husstande 1. januar, hele landet, alle husstandstyper · gennemsnit af 1 målinger i 2025: 2.8573e+06",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 2878144,
+     "period": "2026",
+     "quote": "DST FAM55N, husstande 1. januar, hele landet, alle husstandstyper · gennemsnit af 1 målinger i 2026: 2.87814e+06",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "husstandsvaekst_siden_2008",
+   "label": "Antal husstandes vækst siden 2008",
+   "grundlag": "husberegning",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "Husberegning på DST FAM55N",
+   "sections": [
+    "demography"
+   ],
+   "terms": [
+    "husstande",
+    "husstand",
+    "siden 2008",
+    "vokset",
+    "personer pr. husstand"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2026,
+     "value": 13,
+     "period": "2008-2026",
+     "quote": "FAM55N antal husstande 1. januar i det senest udgivne år divideret med samme tal for 2008, minus én. Samme basisår som befolkningens vækst — det er sammenligningen der er pointen: husstandene vokser hurtigere end befolkningen, altså færre personer pr. husstand.\n · 2008-2026: 2.87814e+06 / 2.54738e+06 - 1 = 13 pct.",
+     "n_obs": 2
+    }
+   ]
+  },
+  {
+   "id": "inflation_cpi",
+   "label": "Forbrugerprisinflation (CPI)",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "DST PRIS01, forbrugerprisindeks i alt, ændring ift. samme måned året før",
+   "sections": [
+    "economic_outlook",
+    "house_prices"
+   ],
+   "terms": [
+    "inflation",
+    "forbrugerpriser",
+    "forbrugerprisinflation",
+    "CPI",
+    "prisstigninger"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 3.4,
+     "period": "2023",
+     "quote": "DST PRIS01, forbrugerprisindeks i alt, ændring ift. samme måned året før · gennemsnit af 12 målinger i 2023: 3.4",
+     "n_obs": 12
+    },
+    {
+     "year": 2024,
+     "value": 1.4,
+     "period": "2024",
+     "quote": "DST PRIS01, forbrugerprisindeks i alt, ændring ift. samme måned året før · gennemsnit af 12 målinger i 2024: 1.4",
+     "n_obs": 12
+    },
+    {
+     "year": 2025,
+     "value": 1.9,
+     "period": "2025",
+     "quote": "DST PRIS01, forbrugerprisindeks i alt, ændring ift. samme måned året før · gennemsnit af 12 målinger i 2025: 1.9",
+     "n_obs": 12
+    },
+    {
+     "year": 2026,
+     "value": 1.7,
+     "period": "2026M07",
+     "quote": "DST PRIS01, forbrugerprisindeks i alt, ændring ift. samme måned året før · senest målt 2026M07: 1.7",
+     "n_obs": 7
+    }
+   ]
+  },
+  {
+   "id": "inflation_cpi_februar",
+   "label": "Forbrugerprisinflation (CPI) i februar",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "DST PRIS01, forbrugerprisindeks i alt, årsvækst i februar",
+   "sections": [
+    "economic_outlook"
+   ],
+   "terms": [
+    "inflation",
+    "forbrugerpriser",
+    "februar",
+    "afgiftslempelser",
+    "elafgift"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 7.6,
+     "period": "2023M02",
+     "quote": "DST PRIS01, forbrugerprisindeks i alt, årsvækst i februar · samme periode året før, sæsonsikret 2023M02: 7.6",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 0.8,
+     "period": "2024M02",
+     "quote": "DST PRIS01, forbrugerprisindeks i alt, årsvækst i februar · samme periode året før, sæsonsikret 2024M02: 0.8",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 2,
+     "period": "2025M02",
+     "quote": "DST PRIS01, forbrugerprisindeks i alt, årsvækst i februar · samme periode året før, sæsonsikret 2025M02: 2",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 0.7,
+     "period": "2026M02",
+     "quote": "DST PRIS01, forbrugerprisindeks i alt, årsvækst i februar · samme periode året før, sæsonsikret 2026M02: 0.7",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "inflation_cpi_skoen_2026",
+   "label": "Forventet forbrugerprisinflation (CPI), 2026",
+   "grundlag": "husberegning",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "Prognosecenteret, eget skøn",
+   "sections": [
+    "economic_outlook"
+   ],
+   "terms": [
+    "inflation",
+    "forbrugerpriser",
+    "forbrugerprisinflation",
+    "CPI",
+    "prisstigninger",
+    "2026"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2026,
+     "value": 1.5,
+     "period": "2026",
+     "quote": "Prognosecenterets eget skøn, fremskrevet fra de realiserede måneder. Januar-juli 2026 gav et gennemsnit på 1,37 pct., og de seneste tre måneder lå på 1,83 pct. Holder den takt året ud, lander CPI på 1,55 pct. Krydset mod institutionerne: Nordeas juniskøn på 1,50 rammer samme sted, Danske Banks 1,30 kræver 1,20 pct. i de sidste fem måneder, mens SEB (1,90) og De Økonomiske Råd (2,00) kræver henholdsvis 2,64 og 2,88 pct. og dermed et niveau der ikke er set i 2026. Skønnet er sat til 1,5. Målt 27. august 2026. · erklæret konstant for 2026: 1.5",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "ingen_begraensninger_bygge",
+   "label": "Ingen produktionsbegrænsninger, bygge og anlæg",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "DST KBB03, branche F, 'Ingen begrænsninger'",
+   "sections": [
+    "supply_side",
+    "building_market"
+   ],
+   "terms": [
+    "ingen begrænsninger",
+    "uhindret",
+    "ubegrænset"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 43,
+     "period": "2023M08",
+     "quote": "DST KBB03, branche F, 'Ingen begrænsninger' · samme periode året før, sæsonsikret 2023M08: 43",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 45,
+     "period": "2024M08",
+     "quote": "DST KBB03, branche F, 'Ingen begrænsninger' · samme periode året før, sæsonsikret 2024M08: 45",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 50,
+     "period": "2025M08",
+     "quote": "DST KBB03, branche F, 'Ingen begrænsninger' · samme periode året før, sæsonsikret 2025M08: 50",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 47,
+     "period": "2026M08",
+     "quote": "DST KBB03, branche F, 'Ingen begrænsninger' · samme periode året før, sæsonsikret 2026M08: 47",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "lca_omkostning_2025",
+   "label": "LCA-kravenes løft af materialeomkostningerne fra slutningen af 2025",
+   "grundlag": "husberegning",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "Prognosecenteret, eget skøn",
+   "sections": [
+    "political_factors",
+    "supply_side"
+   ],
+   "terms": [
+    "LCA",
+    "klimakrav",
+    "CO2e",
+    "grænseværdier",
+    "materialeomkostninger",
+    "grøn omstilling"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2025,
+     "value": 5,
+     "period": "2025",
+     "quote": "Prognosecenterets eget skøn over de skærpede CO2e-grænseværdiers effekt på materialeomkostningerne. Bygger på, at grænseværdierne mindsker fleksibiliteten i materialevalget og tvinger byggeriet over i dyrere alternativer, plus dokumentationsomkostningen ved selve LCA-beregningen. Skønnet er uændret siden majrunden 2026. · erklæret konstant for 2025: 5",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "lca_omkostning_2027",
+   "label": "LCA-kravenes yderligere løft af materialeomkostningerne fra slutningen af 2027",
+   "grundlag": "husberegning",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "Prognosecenteret, eget skøn",
+   "sections": [
+    "political_factors",
+    "supply_side"
+   ],
+   "terms": [
+    "LCA",
+    "klimakrav",
+    "CO2e",
+    "grænseværdier",
+    "materialeomkostninger",
+    "2027",
+    "stramning"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2027,
+     "value": 2.5,
+     "period": "2027",
+     "quote": "Prognosecenterets eget skøn over den NÆSTE stramning af CO2e- grænseværdierne, der indfases fra slutningen af 2027. Kommer oven i skønnet for 2025-stramningen, se lca_omkostning_2025. Uændret siden majrunden 2026. · erklæret konstant for 2027: 2.5",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "loenvaekst_alle_erhverv",
+   "label": "Lønvækst, erhverv i alt",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "DST SBLON1, erhverv i alt, sektorer i alt, ændring ift. samme kvartal året før",
+   "sections": [
+    "supply_side",
+    "economic_outlook"
+   ],
+   "terms": [
+    "løn",
+    "lønvækst",
+    "lønninger",
+    "timefortjeneste",
+    "erhverv i alt",
+    "samlede erhvervsliv",
+    "resten af økonomien"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 3.6,
+     "period": "2023K04",
+     "quote": "DST SBLON1, erhverv i alt, sektorer i alt, ændring ift. samme kvartal året før · seneste periode i året 2023K04: 3.6",
+     "n_obs": 4
+    },
+    {
+     "year": 2024,
+     "value": 4.8,
+     "period": "2024K04",
+     "quote": "DST SBLON1, erhverv i alt, sektorer i alt, ændring ift. samme kvartal året før · seneste periode i året 2024K04: 4.8",
+     "n_obs": 4
+    },
+    {
+     "year": 2025,
+     "value": 3.2,
+     "period": "2025K04",
+     "quote": "DST SBLON1, erhverv i alt, sektorer i alt, ændring ift. samme kvartal året før · seneste periode i året 2025K04: 3.2",
+     "n_obs": 4
+    },
+    {
+     "year": 2026,
+     "value": 3.2,
+     "period": "2026K02",
+     "quote": "DST SBLON1, erhverv i alt, sektorer i alt, ændring ift. samme kvartal året før · senest målt 2026K02: 3.2",
+     "n_obs": 2
+    }
+   ]
+  },
+  {
+   "id": "loenvaekst_bygge",
+   "label": "Lønvækst, bygge og anlæg",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "DST SBLON1, branche F, sektorer i alt, ændring ift. samme kvartal året før",
+   "sections": [
+    "supply_side",
+    "economic_outlook"
+   ],
+   "terms": [
+    "løn",
+    "lønvækst",
+    "lønninger",
+    "timefortjeneste",
+    "lønstigning"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 6.2,
+     "period": "2023K04",
+     "quote": "DST SBLON1, branche F, sektorer i alt, ændring ift. samme kvartal året før · seneste periode i året 2023K04: 6.2",
+     "n_obs": 4
+    },
+    {
+     "year": 2024,
+     "value": 4.3,
+     "period": "2024K04",
+     "quote": "DST SBLON1, branche F, sektorer i alt, ændring ift. samme kvartal året før · seneste periode i året 2024K04: 4.3",
+     "n_obs": 4
+    },
+    {
+     "year": 2025,
+     "value": 4,
+     "period": "2025K04",
+     "quote": "DST SBLON1, branche F, sektorer i alt, ændring ift. samme kvartal året før · seneste periode i året 2025K04: 4",
+     "n_obs": 4
+    },
+    {
+     "year": 2026,
+     "value": 3.7,
+     "period": "2026K02",
+     "quote": "DST SBLON1, branche F, sektorer i alt, ændring ift. samme kvartal året før · senest målt 2026K02: 3.7",
+     "n_obs": 2
+    }
+   ]
+  },
+  {
+   "id": "mangel_arbejdskraft_bygge",
+   "label": "Mangel på arbejdskraft, bygge og anlæg",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "DST KBB03, branche F, årsag AMA — andel af virksomheder",
+   "sections": [
+    "supply_side",
+    "building_market",
+    "new_residential",
+    "new_non_residential",
+    "economic_outlook"
+   ],
+   "terms": [
+    "arbejdskraft",
+    "mangel på arbejdskraft",
+    "flaskehals",
+    "kapacitetspres"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 32,
+     "period": "2023M08",
+     "quote": "DST KBB03, branche F, årsag AMA — andel af virksomheder · samme periode året før, sæsonsikret 2023M08: 32",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 31,
+     "period": "2024M08",
+     "quote": "DST KBB03, branche F, årsag AMA — andel af virksomheder · samme periode året før, sæsonsikret 2024M08: 31",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 26,
+     "period": "2025M08",
+     "quote": "DST KBB03, branche F, årsag AMA — andel af virksomheder · samme periode året før, sæsonsikret 2025M08: 26",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 23,
+     "period": "2026M08",
+     "quote": "DST KBB03, branche F, årsag AMA — andel af virksomheder · samme periode året før, sæsonsikret 2026M08: 23",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "mangel_arbejdskraft_el",
+   "label": "Mangel på arbejdskraft, el-installation",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "DST KBB03, branche 432100, årsag AMA",
+   "sections": [
+    "supply_side"
+   ],
+   "terms": [
+    "elektriker",
+    "el-installat",
+    "installat"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 25,
+     "period": "2023M08",
+     "quote": "DST KBB03, branche 432100, årsag AMA · samme periode året før, sæsonsikret 2023M08: 25",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 34,
+     "period": "2024M08",
+     "quote": "DST KBB03, branche 432100, årsag AMA · samme periode året før, sæsonsikret 2024M08: 34",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 24,
+     "period": "2025M08",
+     "quote": "DST KBB03, branche 432100, årsag AMA · samme periode året før, sæsonsikret 2025M08: 24",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 18,
+     "period": "2026M08",
+     "quote": "DST KBB03, branche 432100, årsag AMA · samme periode året før, sæsonsikret 2026M08: 18",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "mangel_arbejdskraft_maler",
+   "label": "Mangel på arbejdskraft, maleraktiviteter",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "DST KBB03, branche 433410, årsag AMA",
+   "sections": [
+    "supply_side"
+   ],
+   "terms": [
+    "maler",
+    "maleraktivitet"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 18,
+     "period": "2023M08",
+     "quote": "DST KBB03, branche 433410, årsag AMA · samme periode året før, sæsonsikret 2023M08: 18",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 36,
+     "period": "2024M08",
+     "quote": "DST KBB03, branche 433410, årsag AMA · samme periode året før, sæsonsikret 2024M08: 36",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 18,
+     "period": "2025M08",
+     "quote": "DST KBB03, branche 433410, årsag AMA · samme periode året før, sæsonsikret 2025M08: 18",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 27,
+     "period": "2026M08",
+     "quote": "DST KBB03, branche 433410, årsag AMA · samme periode året før, sæsonsikret 2026M08: 27",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "mangel_arbejdskraft_murer",
+   "label": "Mangel på arbejdskraft, murerarbejde",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "DST KBB03, branche 439100, årsag AMA",
+   "sections": [
+    "supply_side"
+   ],
+   "terms": [
+    "murer",
+    "murerarbejde"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 35,
+     "period": "2023M08",
+     "quote": "DST KBB03, branche 439100, årsag AMA · samme periode året før, sæsonsikret 2023M08: 35",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 22,
+     "period": "2024M08",
+     "quote": "DST KBB03, branche 439100, årsag AMA · samme periode året før, sæsonsikret 2024M08: 22",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 22,
+     "period": "2025M08",
+     "quote": "DST KBB03, branche 439100, årsag AMA · samme periode året før, sæsonsikret 2025M08: 22",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 15,
+     "period": "2026M08",
+     "quote": "DST KBB03, branche 439100, årsag AMA · samme periode året før, sæsonsikret 2026M08: 15",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "mangel_arbejdskraft_opforelse",
+   "label": "Mangel på arbejdskraft, opførelse af bygninger",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "DST KBB03, branche F41 opførelse af bygninger, årsag AMA",
+   "sections": [
+    "supply_side",
+    "new_residential",
+    "new_non_residential"
+   ],
+   "terms": [
+    "arbejdskraft",
+    "mangel på arbejdskraft",
+    "opførelse af bygninger",
+    "nybyggeri"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 32,
+     "period": "2023M08",
+     "quote": "DST KBB03, branche F41 opførelse af bygninger, årsag AMA · samme periode året før, sæsonsikret 2023M08: 32",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 29,
+     "period": "2024M08",
+     "quote": "DST KBB03, branche F41 opførelse af bygninger, årsag AMA · samme periode året før, sæsonsikret 2024M08: 29",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 37,
+     "period": "2025M08",
+     "quote": "DST KBB03, branche F41 opførelse af bygninger, årsag AMA · samme periode året før, sæsonsikret 2025M08: 37",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 12,
+     "period": "2026M08",
+     "quote": "DST KBB03, branche F41 opførelse af bygninger, årsag AMA · samme periode året før, sæsonsikret 2026M08: 12",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "mangel_arbejdskraft_vvs",
+   "label": "Mangel på arbejdskraft, vvs-, varme- og klimainstallation",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "DST KBB03, branche 432200, årsag AMA",
+   "sections": [
+    "supply_side"
+   ],
+   "terms": [
+    "vvs",
+    "installat",
+    "varme- og klimaanlæg"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 32,
+     "period": "2023M08",
+     "quote": "DST KBB03, branche 432200, årsag AMA · samme periode året før, sæsonsikret 2023M08: 32",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 20,
+     "period": "2024M08",
+     "quote": "DST KBB03, branche 432200, årsag AMA · samme periode året før, sæsonsikret 2024M08: 20",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 26,
+     "period": "2025M08",
+     "quote": "DST KBB03, branche 432200, årsag AMA · samme periode året før, sæsonsikret 2025M08: 26",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 26,
+     "period": "2026M08",
+     "quote": "DST KBB03, branche 432200, årsag AMA · samme periode året før, sæsonsikret 2026M08: 26",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "mangel_eftersporgsel_bygge",
+   "label": "Mangel på efterspørgsel, bygge og anlæg",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "DST KBB03, branche F, årsag MEFT — andel af virksomheder",
+   "sections": [
+    "supply_side",
+    "building_market"
+   ],
+   "terms": [
+    "mangel på efterspørgsel",
+    "efterspørgsel",
+    "ordremangel",
+    "ordrebeholdning"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 20,
+     "period": "2023M08",
+     "quote": "DST KBB03, branche F, årsag MEFT — andel af virksomheder · samme periode året før, sæsonsikret 2023M08: 20",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 22,
+     "period": "2024M08",
+     "quote": "DST KBB03, branche F, årsag MEFT — andel af virksomheder · samme periode året før, sæsonsikret 2024M08: 22",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 26,
+     "period": "2025M08",
+     "quote": "DST KBB03, branche F, årsag MEFT — andel af virksomheder · samme periode året før, sæsonsikret 2025M08: 26",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 25,
+     "period": "2026M08",
+     "quote": "DST KBB03, branche F, årsag MEFT — andel af virksomheder · samme periode året før, sæsonsikret 2026M08: 25",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "mangel_eftersporgsel_opforelse",
+   "label": "Mangel på efterspørgsel, opførelse af bygninger",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "DST KBB03, branche F41 opførelse af bygninger, årsag MEFT",
+   "sections": [
+    "supply_side",
+    "new_residential",
+    "new_non_residential"
+   ],
+   "terms": [
+    "mangel på efterspørgsel",
+    "efterspørgsel",
+    "ordremangel",
+    "opførelse af bygninger",
+    "nybyggeri"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 16,
+     "period": "2023M08",
+     "quote": "DST KBB03, branche F41 opførelse af bygninger, årsag MEFT · samme periode året før, sæsonsikret 2023M08: 16",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 35,
+     "period": "2024M08",
+     "quote": "DST KBB03, branche F41 opførelse af bygninger, årsag MEFT · samme periode året før, sæsonsikret 2024M08: 35",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 32,
+     "period": "2025M08",
+     "quote": "DST KBB03, branche F41 opførelse af bygninger, årsag MEFT · samme periode året før, sæsonsikret 2025M08: 32",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 33,
+     "period": "2026M08",
+     "quote": "DST KBB03, branche F41 opførelse af bygninger, årsag MEFT · samme periode året før, sæsonsikret 2026M08: 33",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "mangel_materialer_bygge",
+   "label": "Mangel på materialer, bygge og anlæg",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "DST KBB03, branche F, årsag MAT",
+   "sections": [
+    "supply_side",
+    "building_market"
+   ],
+   "terms": [
+    "materialemangel",
+    "mangel på materialer",
+    "leveringstid"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 4,
+     "period": "2023M08",
+     "quote": "DST KBB03, branche F, årsag MAT · samme periode året før, sæsonsikret 2023M08: 4",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 3,
+     "period": "2024M08",
+     "quote": "DST KBB03, branche F, årsag MAT · samme periode året før, sæsonsikret 2024M08: 3",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 2,
+     "period": "2025M08",
+     "quote": "DST KBB03, branche F, årsag MAT · samme periode året før, sæsonsikret 2025M08: 2",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 4,
+     "period": "2026M08",
+     "quote": "DST KBB03, branche F, årsag MAT · samme periode året før, sæsonsikret 2026M08: 4",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "materialepriser_byggeri",
+   "label": "Materialepriser i byggeriet, årsvækst",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "DST PRIS1121, 14 byggerelevante varegrupper vejet med husets vægte — årsvækst",
+   "sections": [
+    "supply_side",
+    "building_market",
+    "new_residential",
+    "new_non_residential",
+    "economic_outlook"
+   ],
+   "terms": [
+    "materialepriser",
+    "materialeomkostninger",
+    "byggematerialer",
+    "priser på materialer",
+    "træpriser",
+    "stålpriser",
+    "inputpriser"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 1.9,
+     "period": "2023M07",
+     "quote": "DST PRIS1121, 14 byggerelevante varegrupper vejet med husets vægte — årsvækst · samme periode året før, sæsonsikret 2023M07: 1.9",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": -1,
+     "period": "2024M07",
+     "quote": "DST PRIS1121, 14 byggerelevante varegrupper vejet med husets vægte — årsvækst · samme periode året før, sæsonsikret 2024M07: -1",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 1.5,
+     "period": "2025M07",
+     "quote": "DST PRIS1121, 14 byggerelevante varegrupper vejet med husets vægte — årsvækst · samme periode året før, sæsonsikret 2025M07: 1.5",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 3.8,
+     "period": "2026M07",
+     "quote": "DST PRIS1121, 14 byggerelevante varegrupper vejet med husets vægte — årsvækst · samme periode året før, sæsonsikret 2026M07: 3.8",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "materialepriser_byggeri_februar",
+   "label": "Materialepriser i byggeriet, årsvækst i februar",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "DST PRIS1121, 14 byggerelevante varegrupper vejet med husets vægte — årsvækst i februar",
+   "sections": [
+    "supply_side",
+    "building_market",
+    "economic_outlook"
+   ],
+   "terms": [
+    "materialepriser",
+    "februar",
+    "prisstigningstakt",
+    "acceleration",
+    "Hormuz",
+    "Hormuzstrædet"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 9.3,
+     "period": "2023M02",
+     "quote": "DST PRIS1121, 14 byggerelevante varegrupper vejet med husets vægte — årsvækst i februar · samme periode året før, sæsonsikret 2023M02: 9.3",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": -0.4,
+     "period": "2024M02",
+     "quote": "DST PRIS1121, 14 byggerelevante varegrupper vejet med husets vægte — årsvækst i februar · samme periode året før, sæsonsikret 2024M02: -0.4",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": -0.5,
+     "period": "2025M02",
+     "quote": "DST PRIS1121, 14 byggerelevante varegrupper vejet med husets vægte — årsvækst i februar · samme periode året før, sæsonsikret 2025M02: -0.5",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 1.1,
+     "period": "2026M02",
+     "quote": "DST PRIS1121, 14 byggerelevante varegrupper vejet med husets vægte — årsvækst i februar · samme periode året før, sæsonsikret 2026M02: 1.1",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "materialepriser_chok_2020_2023",
+   "label": "Materialeprisstigning fra foråret 2020 til foråret 2023",
+   "grundlag": "husberegning",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "Prognosecenteret på baggrund af DST PRIS1121, april 2020 til april 2023",
+   "sections": [
+    "supply_side",
+    "building_market"
+   ],
+   "terms": [
+    "materialepriser",
+    "2020",
+    "2023",
+    "prischok",
+    "forrige chok",
+    "maalestok",
+    "sammenligning"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 27.5,
+     "period": "2023",
+     "quote": "Husets vægtede materialeprisindeks (samme 14 varegrupper og vægte som materialepriser_byggeri), niveau april 2020 = 98,87 mod april 2023 = 126,11, altså +27,5 pct. Målestokken det nuværende chok skal læses mod; værste enkeltår april 2021 til april 2022 var +14,3 pct. · erklæret konstant for 2023: 27.5",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "nettoindvandring",
+   "label": "Nettoindvandring",
+   "grundlag": "maaling",
+   "unit": "antal",
+   "talart": "niveau",
+   "source": "DST BEV107, bevægelsesart B10 nettoindvandrede, hele landet",
+   "sections": [
+    "demography"
+   ],
+   "terms": [
+    "nettoindvandring",
+    "indvandring",
+    "udvandring",
+    "tilflytning",
+    "vandringsbalance"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 30172,
+     "period": "2023",
+     "quote": "DST BEV107, bevægelsesart B10 nettoindvandrede, hele landet · gennemsnit af 1 målinger i 2023: 30172",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 32257,
+     "period": "2024",
+     "quote": "DST BEV107, bevægelsesart B10 nettoindvandrede, hele landet · gennemsnit af 1 målinger i 2024: 32257",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 31691,
+     "period": "2025",
+     "quote": "DST BEV107, bevægelsesart B10 nettoindvandrede, hele landet · gennemsnit af 1 målinger i 2025: 31691",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "oliepris_februar",
+   "label": "Oliepris, importeret råolie, årsvækst i februar",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "DST PRIS1121, importeret råolie (VAREGR 2716), årsvækst i februar",
+   "sections": [
+    "economic_outlook",
+    "supply_side"
+   ],
+   "terms": [
+    "oliepris",
+    "olieprisen",
+    "råolie",
+    "energipriser",
+    "brent",
+    "energiprischok"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": -11,
+     "period": "2023M02",
+     "quote": "DST PRIS1121, importeret råolie (VAREGR 2716), årsvækst i februar · samme periode året før, sæsonsikret 2023M02: -11",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 0.7,
+     "period": "2024M02",
+     "quote": "DST PRIS1121, importeret råolie (VAREGR 2716), årsvækst i februar · samme periode året før, sæsonsikret 2024M02: 0.7",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": -5.6,
+     "period": "2025M02",
+     "quote": "DST PRIS1121, importeret råolie (VAREGR 2716), årsvækst i februar · samme periode året før, sæsonsikret 2025M02: -5.6",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": -16.3,
+     "period": "2026M02",
+     "quote": "DST PRIS1121, importeret råolie (VAREGR 2716), årsvækst i februar · samme periode året før, sæsonsikret 2026M02: -16.3",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "oliepris_juli",
+   "label": "Oliepris, importeret råolie, årsvækst i juli",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "vaekst",
+   "source": "DST PRIS1121, importeret råolie (VAREGR 2716), årsvækst i juli",
+   "sections": [
+    "economic_outlook",
+    "supply_side"
+   ],
+   "terms": [
+    "oliepris",
+    "olieprisen",
+    "råolie",
+    "energipriser",
+    "brent",
+    "energiprischok"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": -34.5,
+     "period": "2023M07",
+     "quote": "DST PRIS1121, importeret råolie (VAREGR 2716), årsvækst i juli · samme periode året før, sæsonsikret 2023M07: -34.5",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 13.9,
+     "period": "2024M07",
+     "quote": "DST PRIS1121, importeret råolie (VAREGR 2716), årsvækst i juli · samme periode året før, sæsonsikret 2024M07: 13.9",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": -22.1,
+     "period": "2025M07",
+     "quote": "DST PRIS1121, importeret råolie (VAREGR 2716), årsvækst i juli · samme periode året før, sæsonsikret 2025M07: -22.1",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 17.3,
+     "period": "2026M07",
+     "quote": "DST PRIS1121, importeret råolie (VAREGR 2716), årsvækst i juli · samme periode året før, sæsonsikret 2026M07: 17.3",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "oliepris_oem_2026",
+   "label": "Oliepris, dollar pr. tønde (Økonomiministeriets skøn), 2026",
+   "grundlag": "husberegning",
+   "unit": "antal",
+   "talart": "niveau",
+   "source": "Økonomiministeriet, Økonomisk Redegørelse august 2026, Tabel 1.1",
+   "sections": [
+    "economic_outlook",
+    "supply_side"
+   ],
+   "terms": [
+    "oliepris",
+    "olieprisen",
+    "råolie",
+    "brent",
+    "energipriser",
+    "dollar"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2026,
+     "value": 89,
+     "period": "2026",
+     "quote": "Økonomiministeriets forudsætning, Økonomisk Redegørelse august 2026, Tabel 1.1 s. 34. Uændret fra majvurderingen (89,0 begge gange). Til sammenligning lå prisen på 69,1 dollar i 2025. · erklæret konstant for 2026: 89",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "oliepris_oem_2027",
+   "label": "Oliepris, dollar pr. tønde (Økonomiministeriets skøn), 2027",
+   "grundlag": "husberegning",
+   "unit": "antal",
+   "talart": "niveau",
+   "source": "Økonomiministeriet, Økonomisk Redegørelse august 2026, Tabel 1.1",
+   "sections": [
+    "economic_outlook",
+    "supply_side"
+   ],
+   "terms": [
+    "oliepris",
+    "olieprisen",
+    "råolie",
+    "brent",
+    "energipriser",
+    "dollar",
+    "2027"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2027,
+     "value": 77.5,
+     "period": "2027",
+     "quote": "Som oliepris_oem_2026, for 2027: 77,5 dollar pr. tønde. Let nedjusteret fra 78,2 i majvurderingen. BEMÆRK at EIA STEO's augustudgave venter 69,5 dollar for samme år — otte dollar lavere. · erklæret konstant for 2027: 77.5",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_002",
+   "label": "USA's toldsatsniveau over for EU, udmeldte satser vægtet med importandele",
+   "grundlag": "politisk",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "Danmarks Nationalbank",
+   "sections": [
+    "economic_outlook"
+   ],
+   "terms": [
+    "toldsats",
+    "amerikansk told",
+    "told over for EU",
+    "handelsfriktion",
+    "handelskonflikt"
+   ],
+   "status": "officielt_skoen",
+   "legal_basis": "Analyse nr. 5, 26. marts 2026, fodnote 11 og anmærkning til figur 3, s. 15",
+   "wording": "Samlet indebærer dette, at USA's effektive toldsats over for EU ligger lige under 15 pct., svarende til det niveau, der blev fastlagt i handelsaftalen fra sidste år.",
+   "url": "https://www.nationalbanken.dk/media/gpzb1brt/robust-dansk-oekonomi-i-et-usikkert-globalt-landskab.pdf",
+   "verified": "2026-08-13",
+   "valid_until": "2026-12-31",
+   "note": "ADVARSEL: 'effektiv toldsats' betyder to ting. Dette er den UDMELDINGSBASEREDE sats. Målt som faktisk opkrævet told mod importværdi er tallet ca. det halve (NY Fed 9,1 pct.; IW Köln 7,8 pct.). Nationalbanken viser selv begge som adskilte kurver. Skriv 'toldsatsniveauet', ikke 'effektiv toldsats', og navngiv Nationalbanken.",
+   "values": [
+    {
+     "year": 2026,
+     "value": 15,
+     "period": "2026",
+     "quote": "Analyse nr. 5, 26. marts 2026, fodnote 11 og anmærkning til figur 3, s. 15 · Danmarks Nationalbank · ordret: Samlet indebærer dette, at USA's effektive toldsats over for EU ligger lige under 15 pct., svarende til det niveau, der blev fastlagt i handelsaftalen fra sidste år.",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_003",
+   "label": "Ubekræftet: 18 pct. som EU-toldsats i martsrunden",
+   "grundlag": "politisk",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "",
+   "sections": [
+    "economic_outlook"
+   ],
+   "terms": [
+    "Ubekræftet:",
+    "pct."
+   ],
+   "status": "uverificeret",
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": "UVERIFICERET. Martsrundens tekst handler om told på USA's SAMLEDE import (14-18 pct.); majrundens om satsen over for EU (15 pct.). Noten stiller de to op som samme størrelse målt to gange. Ingen institution har offentliggjort en EU-sats på 18. Søgt: Yale Budget Lab, Penn Wharton, DØRS, Nationalbanken, IW Köln, Bruegel, EU-Kommissionen. Slet rækken, eller omskriv til et martsrunde-tal om SAMLET amerikansk import med anden kilde og andet tal.",
+   "values": [
+    {
+     "year": 2026,
+     "value": 18,
+     "period": "uden årstal",
+     "quote": "politisk tal uden retsgrundlag · UDEN ÅRSTAL (uverificeret)",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_004",
+   "label": "dk-004",
+   "grundlag": "politisk",
+   "unit": "antal",
+   "talart": "niveau",
+   "source": "",
+   "sections": [
+    "new_residential"
+   ],
+   "terms": [
+    "dk-004"
+   ],
+   "status": "uverificeret",
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": "UVERIFICERET — OPHAVET IKKE FUNDET. Søgt: Boligøkonomisk Videncenter, DST, EjendomDanmark, Estate/Ritzau, Dansk Byudvikling, Newsec, Spar Nord, Copenhagen Economics. Ingen lander på 28.000/år. De skøn der findes: ca. 8.000 (DST-fremskrivning, 2,1 pers./bolig), ca. 11.775 netto / 16.775 opført (DREAM), ca. 21.000 (Newsec frem mod 2030). 28.000 er altså et YDERTAL, ikke et midterskøn. Nærmeste talværdi fundet: '28.400 boliger 2018-40' — men det er AARHUS KOMMUNE alene over 22 år. Skriv ikke tallet før afsenderen er navngivet; det er en fremskrivning, ikke en norm, så det hører som officielt_skoen.",
+   "values": [
+    {
+     "year": 2026,
+     "value": 28000,
+     "period": "uden årstal",
+     "quote": "politisk tal uden retsgrundlag · UDEN ÅRSTAL (uverificeret)",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_008",
+   "label": "Ét-årig finanseffekt af den planlagte finans- og strukturpolitik i 2026",
+   "grundlag": "politisk",
+   "unit": "pp",
+   "talart": "niveau",
+   "source": "Økonomiministeriet",
+   "sections": [
+    "political_factors"
+   ],
+   "terms": [
+    "finanseffekt",
+    "ét-årig",
+    "finanspolitik",
+    "outputgab"
+   ],
+   "status": "officielt_skoen",
+   "legal_basis": "Faktaark 'Offentlige finanser og finanspolitik', 4. december 2025, s. 1 og tabel 1",
+   "wording": "Den ét-årige finanseffekt skønnes i 2026 til 0,4 pct.-point, og den flerårige finanseffekt til 0,1 pct.-point.",
+   "url": "https://oem.dk/media/rb1mn1ja/faktaark-offentlige-finanser-og-finanspolitik.pdf",
+   "verified": "2026-08-13",
+   "valid_until": "2026-08-26",
+   "note": "AFLØST 27/8-2026 af dk-033 (Økonomisk Redegørelse august 2026: 0,9 pct.-point). Rækken beholdes som årgangshistorik — den var korrekt for sin kilde. ADVARSEL: noten tilskriver tallet BUDGETAFTALEN. Kilden måler hele den planlagte finans- og strukturpolitik, ikke finanslovsaftalen isoleret; ingen opgørelse af aftalens egen finanseffekt fundet. Kilden kalder selv skønnet et OVERKANTSSKØN, fordi de øgede udgifter er forsvarsmateriel med højt importindhold — det trækker imod den efterspørgselseffekt afsnittet vil beskrive. Kilden er fra dec. 2025; Økonomisk Redegørelse maj 2026 udkom ikke.",
+   "values": [
+    {
+     "year": 2026,
+     "value": 0.4,
+     "period": "2026",
+     "quote": "Faktaark 'Offentlige finanser og finanspolitik', 4. december 2025, s. 1 og tabel 1 · Økonomiministeriet · ordret: Den ét-årige finanseffekt skønnes i 2026 til 0,4 pct.-point, og den flerårige finanseffekt til 0,1 pct.-point.",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_009",
+   "label": "Finanslovsaftalens skatte- og afgiftslempelser svarer til 1,1 pct. af den disponible indkomst for en gennemsnitsdansker",
+   "grundlag": "politisk",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "Finansministeriet (beregninger: Skatteministeriet)",
+   "sections": [
+    "political_factors"
+   ],
+   "terms": [
+    "disponibel indkomst",
+    "forbrugsmuligheder",
+    "finanslov",
+    "købekraft"
+   ],
+   "status": "officielt_skoen",
+   "legal_basis": "Faktaark 'Finanslovens betydning for husholdningernes økonomi', 23. oktober 2025, s. 3 og tabel 3",
+   "wording": "Besparelsen øger forbrugsmulighederne svarende til hhv. 1,1 pct. og 1,3 pct. af den disponible indkomst i 2026 og 2027.",
+   "url": "https://fm.dk/media/t3wlurft/faktaark_finanslovens-betydning-for-husholdningernes-oekonomi.pdf",
+   "verified": "2026-08-13",
+   "valid_until": null,
+   "note": "RETTET BETYDNING: noten skrev 'husholdningernes disponible indkomst forbedres ca. 1,1 pct.'. Det er forkert. Kilden siger at lempelserne SVARER TIL 1,1 pct. AF den disponible indkomst — indkomsten vokser ikke 1,1 pct. Kilden advarer selv: 'gennemsnitsdanskeren afspejler ikke den typiske dansker'.",
+   "values": [
+    {
+     "year": 2026,
+     "value": 1.1,
+     "period": "2026",
+     "quote": "Faktaark 'Finanslovens betydning for husholdningernes økonomi', 23. oktober 2025, s. 3 og tabel 3 · Finansministeriet (beregninger: Skatteministeriet) · ordret: Besparelsen øger forbrugsmulighederne svarende til hhv. 1,1 pct. og 1,3 pct. af den disponible indkomst i 2026 og 2027.",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_010",
+   "label": "dk-010",
+   "grundlag": "politisk",
+   "unit": "kr",
+   "talart": "niveau",
+   "source": "",
+   "sections": [
+    "political_factors"
+   ],
+   "terms": [
+    "dk-010"
+   ],
+   "status": "uverificeret",
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": "UVERIFICERET — KILDEN MODSIGER BEGGE TAL. Noten skriver 5.000 kr. og 1.500 beskæftigede. Skatteministeriets faktaark og selve finanslovsaftalen siger begge ordret 400 FULDTIDSPERSONER (faktor 3,75 fra noten), og intet beløb i ordningen er 5.000 kr.: maksimumfradraget hæves fra 6.100 til 37.000 kr., skattelempelsen er 7.950-9.500 kr. Hele aftaleteksten (24.199 tegn) søgt uden træf på '5.000', '1.500' eller 'arbejdsudbud'. Muligt ophav til de 5.000 kr. er en ANDEN ordning: 'forhøjelsen af den supplerende pensionsydelse med 5.000 kr. i 2025'. SKRIV IKKE TALLET. Vil afsnittet beholde pointen, er der fuldt belæg for 6.100 → 37.000 kr. og 400 fuldtidspersoner.",
+   "values": [
+    {
+     "year": 2026,
+     "value": 5000,
+     "period": "uden årstal",
+     "quote": "politisk tal uden retsgrundlag · UDEN ÅRSTAL (uverificeret)",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_011",
+   "label": "Midlertidig højprisordning — maksimumbeløbet kan hæves med op til 20 pct. i alt i 18 navngivne kommuner (hovedstadsområdet og Aarhus)",
+   "grundlag": "politisk",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "Social- og Boligministeriet",
+   "sections": [
+    "new_residential",
+    "political_factors"
+   ],
+   "terms": [
+    "maksimumbeløb",
+    "højprisordning",
+    "alment boligbyggeri",
+    "almene boliger",
+    "18 kommuner",
+    "hovedstadskommunerne",
+    "grundkapitallån"
+   ],
+   "status": "aftale",
+   "legal_basis": "Aftale om styrkede rammer for alment boligbyggeri af 17. december 2025, afsnit 2 \"Midlertidig højprisordning i hovedstadsområdet og Aarhus Kommune\", s. 2. Første 10 pct.: BEK nr. 40 af 13. januar 2026, bilag 2 (= dk-029, gældende). Yderligere 10 pct.: ny bekendtgørelse varslet af Børne-, Ældre- og Boligministeriet 25. august 2026 (i høring uge 34, ikrafttræden \"i september\" — nummer ukendt pr. 1. september 2026). Kommunalt tillægslån (op til 10 pct. oveni): L 18 (2025-26, 2. samling), andenbehandlet 25. august 2026, planlagt ikrafttræden 4. september 2026 — vedtagelse IKKE bekræftet pr. 1. september 2026 (= dk-037).",
+   "wording": "indføres en midlertidig højprisordning, som giver mulighed for at hæve maksimumbeløbet med op til 20 pct. i følgende 18 kommuner: Albertslund, Aarhus, Ballerup, Brøndby, Dragør, Frederiksberg, Gentofte, Gladsaxe, Glostrup, Herlev, Hvidovre, Ishøj, Københavns, Lyngby-Taarbæk, Rudersdal, Rødovre, Tårnby og Vallensbæk. Ordningen er frivillig. De første 10 pct. finansieres efter de gældende regler for alment nybyggeri. Denne del vil medføre en huslejestigning i de berørte projekter. De resterende 10 pct. finansieres via et forhøjet kommunalt grundkapitallån. Denne del påvirker ikke huslejen. […] Ordningen gælder i perioden 2026–2035 og udfases gradvist.",
+   "url": "https://www.sm.dk/Media/639014943075256840/Aftale%20om%20styrkede%20rammer%20for%20alment%20byggeri.pdf",
+   "verified": "2026-09-01",
+   "valid_until": "2035-12-31",
+   "note": "AAR TOMT MED VILJE: ordningen er en taerskel 2026-2035 (gaelder_til baerer udloebet), og teksten sammenligner med 2025 - et aarskrav paa 2026 afviste den korrekte saetning 2/9-2026. RETTET 1/9-2026 — december-summen \"op til 24 pct.\" er FORÆLDET. Ministeriets nyhed 25/8-2026 (\"Loftet for alment byggeri i dyre områder hæves\", baebm.dk) lægger en ny bekendtgørelses-10'er oveni BEK 40's 10, så loftet i de 18 kommuner bliver 20 pct. over årsskiftet, og derudover op til 10 pct. via kommunalt tillægslån (L 18). Med den landsdækkende forhøjelse på knap 4 pct. i alt op til ca. 34 pct. over 2025-niveauet. Kollegernes formulering \"i alt 20 pct. sammenlignet med 2025 og med mulighed for 10 pct. ekstra gennem kommunale tillægslån\" er verificeret korrekt. TIDSKRITISK — gencheck efter 4. september 2026: hent den nye bekendtgørelses nummer og L 18's vedtagelse, og opdater retsgrundlag + dk-029/dk-037. PR. 1/9-2026 ER KUN DE FØRSTE 10 PCT. GÆLDENDE RET; skriv \"aftalt\"/\"hæves\", ikke \"er hævet 20 pct.\" med paragrafhenvisning. Fuld kildejagt: out/politik_forslag_2026K3_D_septemberrettelser.md.",
+   "values": [
+    {
+     "year": 2026,
+     "value": 20,
+     "period": "uden årstal",
+     "quote": "Aftale om styrkede rammer for alment boligbyggeri af 17. december 2025, afsnit 2 \"Midlertidig højprisordning i hovedstadsområdet og Aarhus Kommune\", s. 2. Første 10 pct.: BEK nr. 40 af 13. januar 2026, bilag 2 (= dk-029, gældende). Yderligere 10 pct.: ny bekendtgørelse varslet af Børne-, Ældre- og Boligministeriet 25. august 2026 (i høring uge 34, ikrafttræden \"i september\" — nummer ukendt pr. 1. september 2026). Kommunalt tillægslån (op til 10 pct. oveni): L 18 (2025-26, 2. samling), andenbehandlet 25. august 2026, planlagt ikrafttræden 4. september 2026 — vedtagelse IKKE bekræftet pr. 1. september 2026 (= dk-037). · Social- og Boligministeriet · ordret: indføres en midlertidig højprisordning, som giver mulighed for at hæve maksimumbeløbet med op til 20 pct. i følgende 18 kommuner: Albertslund, Aarhus, Ballerup, Brøndby, Dragør, Frederiksberg, Gentofte, Gladsaxe, Glostrup, Herlev, Hvidovre, Ishøj, Københavns, Lyngby-Taarbæk, Rudersdal, Rødovre, Tårn · UDEN ÅRSTAL (tærskel, gælder til 2035-12-31)",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_012",
+   "label": "EPBD, MEPS: tærsklen på 16 pct. for ikke-beboelsesbygninger fra 2030",
+   "grundlag": "politisk",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "Europa-Parlamentet og Rådet",
+   "sections": [
+    "political_factors",
+    "rm_non_residential"
+   ],
+   "terms": [
+    "epbd",
+    "meps",
+    "minimumsstandard",
+    "dårligst",
+    "ikke-beboelsesbygninger",
+    "erhvervsbygninger"
+   ],
+   "status": "vedtaget",
+   "legal_basis": "Direktiv (EU) 2024/1275 (EPBD, omarbejdning), artikel 9, stk. 1",
+   "wording": "Hver medlemsstat fastsætter en maksimal tærskel for energimæssig ydeevne således, at 16 % af dens nationale ikke-beboelsesbygningsmasse ligger over denne tærskel (»tærsklen på 16 %«). […] Minimumsstandarderne for energimæssig ydeevne skal som minimum sikre, at alle ikke-beboelsesbygninger ligger under: a) tærsklen på 16 % fra 2030, og b) tærsklen på 26 % fra 2033.",
+   "url": "http://publications.europa.eu/resource/cellar/2b15980c-0cd4-11ef-a251-01aa75ed71a1.0003.03/DOC_1",
+   "verified": "2026-08-13",
+   "valid_until": null,
+   "note": "TÆRSKEL I BYGNINGSBESTANDEN, målt i ANDEL AF BYGNINGER — ikke i energi. Må ikke forveksles med dk-023 (boligmassens energireduktion), som også lyder på 16 pct., men måler noget andet. Sammenlagt fra dk-012+dk-017. ÅBENT PUNKT: den danske gennemførelse er IKKE verificeret — retsinformation.dk og ft.dk kan ikke nås herfra. Direktivet forpligter medlemsstaten, ikke bygningsejeren direkte, så teksten må ikke skrive at kravet gælder danske bygninger, før gennemførelsesloven er slået op. RETTELSE TIL NOTEN: 29. maj 2026 er EU's GENNEMFØRELSESFRIST (art. 35, stk. 1), ikke en dansk lovs ikrafttræden — noterne skriver 'dansk lovforslag forventet i kraft 29. maj 2026' og forveksler de to.",
+   "values": [
+    {
+     "year": 2030,
+     "value": 16,
+     "period": "2030",
+     "quote": "Direktiv (EU) 2024/1275 (EPBD, omarbejdning), artikel 9, stk. 1 · Europa-Parlamentet og Rådet · ordret: Hver medlemsstat fastsætter en maksimal tærskel for energimæssig ydeevne således, at 16 % af dens nationale ikke-beboelsesbygningsmasse ligger over denne tærskel (»tærsklen på 16 %«). […] Minimumsstandarderne for energimæssig ydeevne skal som minimum sikre, at alle ikke-beboelsesbygninger ligger und",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_013",
+   "label": "EPBD, MEPS: tærsklen på 26 pct. for ikke-beboelsesbygninger fra 2033",
+   "grundlag": "politisk",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "Europa-Parlamentet og Rådet",
+   "sections": [
+    "political_factors",
+    "rm_non_residential"
+   ],
+   "terms": [
+    "epbd",
+    "meps",
+    "minimumsstandard",
+    "dårligst",
+    "ikke-beboelsesbygninger",
+    "erhvervsbygninger"
+   ],
+   "status": "vedtaget",
+   "legal_basis": "Direktiv (EU) 2024/1275 (EPBD, omarbejdning), artikel 9, stk. 1",
+   "wording": "Hver medlemsstat fastsætter en maksimal tærskel for energimæssig ydeevne således, at 16 % af dens nationale ikke-beboelsesbygningsmasse ligger over denne tærskel (»tærsklen på 16 %«). […] Minimumsstandarderne for energimæssig ydeevne skal som minimum sikre, at alle ikke-beboelsesbygninger ligger under: a) tærsklen på 16 % fra 2030, og b) tærsklen på 26 % fra 2033.",
+   "url": "http://publications.europa.eu/resource/cellar/2b15980c-0cd4-11ef-a251-01aa75ed71a1.0003.03/DOC_1",
+   "verified": "2026-08-13",
+   "valid_until": null,
+   "note": "Samme bestemmelse som dk-012, anden frist. Sammenlagt fra dk-013+dk-018. ÅBENT PUNKT: den danske gennemførelse er IKKE verificeret — retsinformation.dk og ft.dk kan ikke nås herfra. Direktivet forpligter medlemsstaten, ikke bygningsejeren direkte, så teksten må ikke skrive at kravet gælder danske bygninger, før gennemførelsesloven er slået op. RETTELSE TIL NOTEN: 29. maj 2026 er EU's GENNEMFØRELSESFRIST (art. 35, stk. 1), ikke en dansk lovs ikrafttræden — noterne skriver 'dansk lovforslag forventet i kraft 29. maj 2026' og forveksler de to.",
+   "values": [
+    {
+     "year": 2033,
+     "value": 26,
+     "period": "2033",
+     "quote": "Direktiv (EU) 2024/1275 (EPBD, omarbejdning), artikel 9, stk. 1 · Europa-Parlamentet og Rådet · ordret: Hver medlemsstat fastsætter en maksimal tærskel for energimæssig ydeevne således, at 16 % af dens nationale ikke-beboelsesbygningsmasse ligger over denne tærskel (»tærsklen på 16 %«). […] Minimumsstandarderne for energimæssig ydeevne skal som minimum sikre, at alle ikke-beboelsesbygninger ligger und",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_014",
+   "label": "dk-014",
+   "grundlag": "politisk",
+   "unit": "mia_kr",
+   "talart": "niveau",
+   "source": "",
+   "sections": [
+    "political_factors"
+   ],
+   "terms": [
+    "dk-014"
+   ],
+   "status": "uverificeret",
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": "IKKE I DIREKTIVET. EPBD (2024/1275) er gennemsøgt: beløbet står ikke i direktivteksten. Det er et dansk regeringsskøn over investeringsbehovet ved gennemførelsen, og kilden skal findes i lovforslagets økonomiske bemærkninger eller en konsekvensvurdering — begge utilgængelige herfra. 3,5 mia. kr. årligt 2026-2040.",
+   "values": [
+    {
+     "year": 2026,
+     "value": 3.5,
+     "period": "uden årstal",
+     "quote": "politisk tal uden retsgrundlag · UDEN ÅRSTAL (uverificeret)",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_015",
+   "label": "Accelerationsfonden — 50 mia. kr. til Forsvarets kampkraft i 2025-2026",
+   "grundlag": "politisk",
+   "unit": "mia_kr",
+   "talart": "niveau",
+   "source": "Forsvarsministeriet",
+   "sections": [
+    "political_factors",
+    "supply_side"
+   ],
+   "terms": [
+    "Accelerationsfonden",
+    "Forsvaret",
+    "kampkraft",
+    "forsvarsudgifter"
+   ],
+   "status": "aftale",
+   "legal_basis": "Aftale om styrkelse af Forsvarets kampkraft af 22. februar 2025 (politisk aftale, ikke lov)",
+   "wording": "Regeringen og partierne bag forsvarsforliget etablerer Accelerationsfonden på 50 mia. kr. til brug i 2025 og 2026.",
+   "url": "https://www.fmn.dk/da/arbejdsomraader/forlig-og-okonomi/forsvarsforlig-2024-2033/styrkelse-af-forsvarets-kampkraft/",
+   "verified": "2026-08-13",
+   "valid_until": "2026-12-31",
+   "note": "ÅRSTALLENE SKAL MED: fonden er siden udvidet med 70 mia. kr. for 2027-2033 (samlet 120 mia. 2025-2033). 'Accelerationsfonden på 50 mia. kr.' uden årstal er forældet. 2026 er fondens sidste år — rækken udløber ved årets udgang. Kan hæves til gaeldende hvis Akt. 177 (afgjort 13. marts 2025) bekræftes; den er ikke åbnet.",
+   "values": [
+    {
+     "year": 2025,
+     "value": 50,
+     "period": "2025",
+     "quote": "Aftale om styrkelse af Forsvarets kampkraft af 22. februar 2025 (politisk aftale, ikke lov) · Forsvarsministeriet · ordret: Regeringen og partierne bag forsvarsforliget etablerer Accelerationsfonden på 50 mia. kr. til brug i 2025 og 2026.",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_016",
+   "label": "Målsætning for forsvarsudgifternes andel af BNP",
+   "grundlag": "politisk",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "Finansministeriet",
+   "sections": [
+    "political_factors"
+   ],
+   "terms": [
+    "forsvarsudgifter",
+    "pct. af BNP",
+    "NATO",
+    "2035-planen"
+   ],
+   "status": "aftale",
+   "legal_basis": "Faktaark 'Løft af forsvarsudgifterne og Ukrainefonden', 24. februar 2026, brødtekst og tabel 1 (regeringens 2035-plan, ikke lov)",
+   "wording": "Regeringen lægger op til at løfte den militære ramme i Ukrainefonden med 3,8 mia. kr. i 2026, så de samlede forsvarsudgifter allerede i 2026 vil udgøre 3,5 pct. af BNP.",
+   "url": "https://fm.dk/media/njgl30rc/faktaark_loeft-af-forsvarsudgifterne-og-ukrainefonden.pdf",
+   "verified": "2026-08-13",
+   "valid_until": null,
+   "note": "VÆRDI RETTET 3,0 → 3,5. Notens 'over 3 pct.' var regeringens formulering fra feb. 2025 og er overhalet: både faktisk niveau og målsætning er 3,5 pct. pr. 24. feb. 2026. Bland ikke sammen med den særskilte målsætning om 1,5 pct. af BNP til forsvars- og sikkerhedsrelaterede udgifter.",
+   "values": [
+    {
+     "year": 2026,
+     "value": 3.5,
+     "period": "2026",
+     "quote": "Faktaark 'Løft af forsvarsudgifterne og Ukrainefonden', 24. februar 2026, brødtekst og tabel 1 (regeringens 2035-plan, ikke lov) · Finansministeriet · ordret: Regeringen lægger op til at løfte den militære ramme i Ukrainefonden med 3,8 mia. kr. i 2026, så de samlede forsvarsudgifter allerede i 2026 vil udgøre 3,5 pct. af BNP.",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_019",
+   "label": "dk-019",
+   "grundlag": "politisk",
+   "unit": "mia_kr",
+   "talart": "niveau",
+   "source": "",
+   "sections": [
+    "rm_non_residential"
+   ],
+   "terms": [
+    "dk-019"
+   ],
+   "status": "uverificeret",
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": "IKKE I DIREKTIVET. EPBD (2024/1275) er gennemsøgt: beløbet står ikke i direktivteksten. Det er et dansk regeringsskøn over investeringsbehovet ved gennemførelsen, og kilden skal findes i lovforslagets økonomiske bemærkninger eller en konsekvensvurdering — begge utilgængelige herfra. 3,5 mia. kr. årligt 2026-2040.",
+   "values": [
+    {
+     "year": 2026,
+     "value": 3.5,
+     "period": "uden årstal",
+     "quote": "politisk tal uden retsgrundlag · UDEN ÅRSTAL (uverificeret)",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_020",
+   "label": "dk-020",
+   "grundlag": "politisk",
+   "unit": "mia_kr",
+   "talart": "niveau",
+   "source": "",
+   "sections": [
+    "rm_non_residential"
+   ],
+   "terms": [
+    "dk-020"
+   ],
+   "status": "uverificeret",
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": "IKKE I DIREKTIVET. EPBD (2024/1275) er gennemsøgt: beløbet står ikke i direktivteksten. Det er et dansk regeringsskøn over investeringsbehovet ved gennemførelsen, og kilden skal findes i lovforslagets økonomiske bemærkninger eller en konsekvensvurdering — begge utilgængelige herfra. 17,6 mia. kr. for 2026-2030. REGNEFEJL I NOTEN: den skriver »2031-2033« om den midterste periode, hvilket efterlader 2034-2035 udækket og giver 4,06 mia./år over 13 år — ikke »ca. 3,5«. Med 2031-2035 går det op: 17,6+13,9+21,3 = 52,8 mia. over 15 år = 3,52 mia./år. Skriv ikke beløbene med periodeangivelsen »2031-2033«. Fordelingen er IKKE flad: 3,52 → 2,78 → 4,26 mia./år.",
+   "values": [
+    {
+     "year": 2026,
+     "value": 17.6,
+     "period": "uden årstal",
+     "quote": "politisk tal uden retsgrundlag · UDEN ÅRSTAL (uverificeret)",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_021",
+   "label": "dk-021",
+   "grundlag": "politisk",
+   "unit": "mia_kr",
+   "talart": "niveau",
+   "source": "",
+   "sections": [
+    "rm_non_residential"
+   ],
+   "terms": [
+    "dk-021"
+   ],
+   "status": "uverificeret",
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": "IKKE I DIREKTIVET. EPBD (2024/1275) er gennemsøgt: beløbet står ikke i direktivteksten. Det er et dansk regeringsskøn over investeringsbehovet ved gennemførelsen, og kilden skal findes i lovforslagets økonomiske bemærkninger eller en konsekvensvurdering — begge utilgængelige herfra. 13,9 mia. kr. for 2031-2035. REGNEFEJL I NOTEN: den skriver »2031-2033« om den midterste periode, hvilket efterlader 2034-2035 udækket og giver 4,06 mia./år over 13 år — ikke »ca. 3,5«. Med 2031-2035 går det op: 17,6+13,9+21,3 = 52,8 mia. over 15 år = 3,52 mia./år. Skriv ikke beløbene med periodeangivelsen »2031-2033«. Fordelingen er IKKE flad: 3,52 → 2,78 → 4,26 mia./år.",
+   "values": [
+    {
+     "year": 2026,
+     "value": 13.9,
+     "period": "uden årstal",
+     "quote": "politisk tal uden retsgrundlag · UDEN ÅRSTAL (uverificeret)",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_022",
+   "label": "dk-022",
+   "grundlag": "politisk",
+   "unit": "mia_kr",
+   "talart": "niveau",
+   "source": "",
+   "sections": [
+    "rm_non_residential"
+   ],
+   "terms": [
+    "dk-022"
+   ],
+   "status": "uverificeret",
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": "IKKE I DIREKTIVET. EPBD (2024/1275) er gennemsøgt: beløbet står ikke i direktivteksten. Det er et dansk regeringsskøn over investeringsbehovet ved gennemførelsen, og kilden skal findes i lovforslagets økonomiske bemærkninger eller en konsekvensvurdering — begge utilgængelige herfra. 21,3 mia. kr. for 2036-2040. REGNEFEJL I NOTEN: den skriver »2031-2033« om den midterste periode, hvilket efterlader 2034-2035 udækket og giver 4,06 mia./år over 13 år — ikke »ca. 3,5«. Med 2031-2035 går det op: 17,6+13,9+21,3 = 52,8 mia. over 15 år = 3,52 mia./år. Skriv ikke beløbene med periodeangivelsen »2031-2033«. Fordelingen er IKKE flad: 3,52 → 2,78 → 4,26 mia./år.",
+   "values": [
+    {
+     "year": 2026,
+     "value": 21.3,
+     "period": "uden årstal",
+     "quote": "politisk tal uden retsgrundlag · UDEN ÅRSTAL (uverificeret)",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_023",
+   "label": "EPBD: boligmassens gennemsnitlige primærenergiforbrug falder mindst 16 pct. ift. 2020 senest i 2030",
+   "grundlag": "politisk",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "Europa-Parlamentet og Rådet",
+   "sections": [
+    "rm_residential",
+    "political_factors"
+   ],
+   "terms": [
+    "epbd",
+    "primærenergiforbrug",
+    "primære energiforbrug",
+    "primært energiforbrug",
+    "boligmassen",
+    "beboelsesbygninger",
+    "energireduktion"
+   ],
+   "status": "vedtaget",
+   "legal_basis": "Direktiv (EU) 2024/1275 (EPBD), artikel 9, stk. 2, litra a",
+   "wording": "Medlemsstaterne sikrer, at det gennemsnitlige primærenergiforbrug i kWh/m2 pr. år for hele beboelsesbygningsmassen: a) falder med mindst 16 % i forhold til 2020 senest i 2030 b) falder med mindst 20-22 % i forhold til 2020 senest i 2035",
+   "url": "http://publications.europa.eu/resource/cellar/2b15980c-0cd4-11ef-a251-01aa75ed71a1.0003.03/DOC_1",
+   "verified": "2026-08-13",
+   "valid_until": null,
+   "note": "REDUKTION I ENERGIFORBRUG (kWh/m2 pr. år), målt i ENERGI — ikke en andel af bygningsmassen. Må ikke forveksles med dk-012, som også lyder på 16 pct. Mindst 55 pct. af faldet skal opnås ved renovering af de 43 pct. dårligst ydende boliger (samme stykke). ÅBENT PUNKT: den danske gennemførelse er IKKE verificeret — retsinformation.dk og ft.dk kan ikke nås herfra. Direktivet forpligter medlemsstaten, ikke bygningsejeren direkte, så teksten må ikke skrive at kravet gælder danske bygninger, før gennemførelsesloven er slået op. RETTELSE TIL NOTEN: 29. maj 2026 er EU's GENNEMFØRELSESFRIST (art. 35, stk. 1), ikke en dansk lovs ikrafttræden — noterne skriver 'dansk lovforslag forventet i kraft 29. maj 2026' og forveksler de to.",
+   "values": [
+    {
+     "year": 2030,
+     "value": 16,
+     "period": "2030",
+     "quote": "Direktiv (EU) 2024/1275 (EPBD), artikel 9, stk. 2, litra a · Europa-Parlamentet og Rådet · ordret: Medlemsstaterne sikrer, at det gennemsnitlige primærenergiforbrug i kWh/m2 pr. år for hele beboelsesbygningsmassen: a) falder med mindst 16 % i forhold til 2020 senest i 2030 b) falder med mindst 20-22 % i forhold til 2020 senest i 2035",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_024",
+   "label": "EPBD: boligmassens gennemsnitlige primærenergiforbrug falder mindst 20-22 pct. ift. 2020 senest i 2035",
+   "grundlag": "politisk",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "Europa-Parlamentet og Rådet",
+   "sections": [
+    "rm_residential",
+    "political_factors"
+   ],
+   "terms": [
+    "epbd",
+    "primærenergiforbrug",
+    "primære energiforbrug",
+    "primært energiforbrug",
+    "boligmassen",
+    "beboelsesbygninger",
+    "energireduktion"
+   ],
+   "status": "vedtaget",
+   "legal_basis": "Direktiv (EU) 2024/1275 (EPBD), artikel 9, stk. 2, litra b",
+   "wording": "Medlemsstaterne sikrer, at det gennemsnitlige primærenergiforbrug i kWh/m2 pr. år for hele beboelsesbygningsmassen: a) falder med mindst 16 % i forhold til 2020 senest i 2030 b) falder med mindst 20-22 % i forhold til 2020 senest i 2035",
+   "url": "http://publications.europa.eu/resource/cellar/2b15980c-0cd4-11ef-a251-01aa75ed71a1.0003.03/DOC_1",
+   "verified": "2026-08-13",
+   "valid_until": null,
+   "note": "DIREKTIVET SIGER ET INTERVAL, »mindst 20-22 %«, ikke 22. Noten skriver »20-22 pct.«, men CSV-værdien kan kun bære ét tal; 22 er intervallets øvre ende. Skriv intervallet i teksten, ikke 22 alene. ÅBENT PUNKT: den danske gennemførelse er IKKE verificeret — retsinformation.dk og ft.dk kan ikke nås herfra. Direktivet forpligter medlemsstaten, ikke bygningsejeren direkte, så teksten må ikke skrive at kravet gælder danske bygninger, før gennemførelsesloven er slået op. RETTELSE TIL NOTEN: 29. maj 2026 er EU's GENNEMFØRELSESFRIST (art. 35, stk. 1), ikke en dansk lovs ikrafttræden — noterne skriver 'dansk lovforslag forventet i kraft 29. maj 2026' og forveksler de to.",
+   "values": [
+    {
+     "year": 2035,
+     "value": 22,
+     "period": "2035",
+     "quote": "Direktiv (EU) 2024/1275 (EPBD), artikel 9, stk. 2, litra b · Europa-Parlamentet og Rådet · ordret: Medlemsstaterne sikrer, at det gennemsnitlige primærenergiforbrug i kWh/m2 pr. år for hele beboelsesbygningsmassen: a) falder med mindst 16 % i forhold til 2020 senest i 2030 b) falder med mindst 20-22 % i forhold til 2020 senest i 2035",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_026",
+   "label": "Andel byggesager behandlet inden for kommunernes servicemål",
+   "grundlag": "politisk",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "Dansk Industri (data: Kommunernes Landsforening)",
+   "sections": [
+    "supply_side"
+   ],
+   "terms": [
+    "servicemål",
+    "byggesagsbehandling",
+    "sagsbehandlingstid",
+    "byggetilladelse"
+   ],
+   "status": "officielt_skoen",
+   "legal_basis": "DI Analyse, marts 2025, s. 2 og s. 4",
+   "wording": "Det er således 61 pct. af byggesagerne som opfylder kommunernes egne servicemål.",
+   "url": "https://www.danskindustri.dk/brancher/di-byggeri/nyheder/arkiv/analyser/2025/kortere-byggesagsbehandling-i-2024---men-store-forskelle-mellem-kommuner/",
+   "verified": "2026-08-13",
+   "valid_until": "2026-03-01",
+   "note": "GÆLDER 2024. Overhalet: DI Analyse marts 2026 s. 3 siger 59 pct. for 2025 (se dk-028). ADVARSEL om notens Vallensbæk/Slagelse-billede: i 2025 er Slagelse nede på godt fem dage, og de to kommuner er nr. 1 og 2 på listen over de HURTIGSTE. Sætningen om 'enorm spredning' står med den modsatte pointe af seneste måling.",
+   "values": [
+    {
+     "year": 2024,
+     "value": 61,
+     "period": "2024",
+     "quote": "DI Analyse, marts 2025, s. 2 og s. 4 · Dansk Industri (data: Kommunernes Landsforening) · ordret: Det er således 61 pct. af byggesagerne som opfylder kommunernes egne servicemål.",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_027",
+   "label": "Villum Fondens bevilling til 'Grønnere EUD'-puljen",
+   "grundlag": "politisk",
+   "unit": "mio_kr",
+   "talart": "niveau",
+   "source": "Villum Fonden",
+   "sections": [
+    "supply_side"
+   ],
+   "terms": [
+    "Villum Fonden",
+    "Grønnere EUD",
+    "erhvervsuddannelser",
+    "erhvervsskoler"
+   ],
+   "status": "gaeldende",
+   "legal_basis": "(privat fondsbevilling — hverken lov eller politisk aftale)",
+   "wording": "Villum Fonden støtter erhvervsskolerne med 50 millioner kroner",
+   "url": "https://villumfonden.dk/da/nyhed/millioner-til-groennere-erhvervsuddannelser",
+   "verified": "2026-08-13",
+   "valid_until": null,
+   "note": "SKRIV 'ca.' ELLER 'knap' 50 mio. kr. — de 13 bevillinger summer til knap 50. ÅRSTAL SKAL MED: puljen har kørt i flere runder à 50 mio. (bl.a. jan. 2025), og en NY pulje på 50 mio. har frist 17. august 2026. Uden årstal peger sætningen på tre runder på én gang. Status gaeldende i betydningen 'efterprøvet og udgivet': pengene ER bevilget til navngivne modtagere.",
+   "values": [
+    {
+     "year": 2026,
+     "value": 50,
+     "period": "2026",
+     "quote": "(privat fondsbevilling — hverken lov eller politisk aftale) · Villum Fonden · ordret: Villum Fonden støtter erhvervsskolerne med 50 millioner kroner",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_028",
+   "label": "Andel byggesager behandlet inden for servicemålet",
+   "grundlag": "politisk",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "Dansk Industri (data: Kommunernes Landsforening)",
+   "sections": [
+    "supply_side"
+   ],
+   "terms": [
+    "servicemål",
+    "byggesagsbehandling",
+    "sagsbehandlingstid",
+    "byggetilladelse"
+   ],
+   "status": "officielt_skoen",
+   "legal_basis": "DI Analyse, marts 2026, s. 3",
+   "wording": "I 2025 blev 59 pct. af byggesagerne behandlet inden for servicemålet, som varierer mellem 40 og 60 dage alt efter bygningstype. I 2024 var det 61 pct. af sagerne, der blev behandlet inden for servicemålet.",
+   "url": "https://via.ritzau.dk/files/13560661/14298342/196832/da",
+   "verified": "2026-08-13",
+   "valid_until": null,
+   "note": "AKTUELT TAL (afløser dk-026, som gælder 2024). Sagsbehandlingstiden STEG i 60 af landets 98 kommuner; medianen fra 45 til 50 dage. Landsgennemsnit 56,4 dage i 2025 mod 57,7 i 2024.",
+   "values": [
+    {
+     "year": 2025,
+     "value": 59,
+     "period": "2025",
+     "quote": "DI Analyse, marts 2026, s. 3 · Dansk Industri (data: Kommunernes Landsforening) · ordret: I 2025 blev 59 pct. af byggesagerne behandlet inden for servicemålet, som varierer mellem 40 og 60 dage alt efter bygningstype. I 2024 var det 61 pct. af sagerne, der blev behandlet inden for servicemålet.",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_029",
+   "label": "Højprisordningens tillæg til maksimumbeløbet — i kraft",
+   "grundlag": "politisk",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "Social- og Boligministeriet",
+   "sections": [
+    "new_residential",
+    "political_factors"
+   ],
+   "terms": [
+    "maksimumbeløb",
+    "højprisordning",
+    "tillæg",
+    "hovedstadskommunerne"
+   ],
+   "status": "gaeldende",
+   "legal_basis": "Bekendtgørelse nr. 40 af 13. januar 2026 om støtte til almene boliger m.v., bilag 2, note 1 (område 1) og note 2 (område 3)",
+   "wording": "Tillægget udgør i perioden 17. januar 2026 til 31. december 2032 10 pct., i 2033 7,5 pct., i 2034 5 pct. og i 2035 2,5 pct. af maksimumsbeløbet i område 2.",
+   "url": "https://www.retsinformation.dk/eli/lta/2026/40",
+   "verified": "2026-08-13",
+   "valid_until": "2035-12-31",
+   "note": "DETTE er tallet i en retsakt. Ministeriets »knap 14 pct.« er summen af dette tillæg og den almindelige regulering på knap 4 pct., og den sum står ingen steder i en bestemmelse — skriv den derfor ikke med en paragrafhenvisning. Tillægget NEDTRAPPES: 10 pct. til og med 2032, så 7,5 / 5 / 2,5 pct. Se dk-011 for den aftalte, endnu ikke vedtagne del.",
+   "values": [
+    {
+     "year": 2026,
+     "value": 10,
+     "period": "2026",
+     "quote": "Bekendtgørelse nr. 40 af 13. januar 2026 om støtte til almene boliger m.v., bilag 2, note 1 (område 1) og note 2 (område 3) · Social- og Boligministeriet · ordret: Tillægget udgør i perioden 17. januar 2026 til 31. december 2032 10 pct., i 2033 7,5 pct., i 2034 5 pct. og i 2035 2,5 pct. af maksimumsbeløbet i område 2.",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_030",
+   "label": "EPBD: boligmassens primærenergiforbrug falder mindst 20 pct. (intervallets lave ende) ift. 2020 senest i 2035",
+   "grundlag": "politisk",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "Europa-Parlamentet og Rådet",
+   "sections": [
+    "rm_residential",
+    "political_factors"
+   ],
+   "terms": [
+    "epbd",
+    "primærenergiforbrug",
+    "primære energiforbrug",
+    "primært energiforbrug",
+    "boligmassen",
+    "beboelsesbygninger",
+    "energireduktion"
+   ],
+   "status": "vedtaget",
+   "legal_basis": "Direktiv (EU) 2024/1275 (EPBD), artikel 9, stk. 2, litra b",
+   "wording": "Medlemsstaterne sikrer, at det gennemsnitlige primærenergiforbrug i kWh/m2 pr. år for hele beboelsesbygningsmassen: a) falder med mindst 16 % i forhold til 2020 senest i 2030 b) falder med mindst 20-22 % i forhold til 2020 senest i 2035",
+   "url": "http://publications.europa.eu/resource/cellar/2b15980c-0cd4-11ef-a251-01aa75ed71a1.0003.03/DOC_1",
+   "verified": "2026-08-13",
+   "valid_until": null,
+   "note": "INTERVALLETS LAVE ENDE. Direktivet siger »mindst 20-22 %«, og vaerdi-feltet kan kun bære ét tal — derfor to rækker om samme bestemmelse (dk-024 er den høje ende). Uden denne matchede »20« mod dk-024's 22 inden for tolerancen, fordi »20« er skrevet uden decimaler og dermed kun hævder præcision til nærmeste ti. Skriv intervallet, ikke ét af tallene alene.",
+   "values": [
+    {
+     "year": 2035,
+     "value": 20,
+     "period": "2035",
+     "quote": "Direktiv (EU) 2024/1275 (EPBD), artikel 9, stk. 2, litra b · Europa-Parlamentet og Rådet · ordret: Medlemsstaterne sikrer, at det gennemsnitlige primærenergiforbrug i kWh/m2 pr. år for hele beboelsesbygningsmassen: a) falder med mindst 16 % i forhold til 2020 senest i 2030 b) falder med mindst 20-22 % i forhold til 2020 senest i 2035",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_031",
+   "label": "EPBD: indsatsen rettes mod de 43 pct. beboelsesbygninger med daarligst energimaessig ydeevne",
+   "grundlag": "politisk",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "Europa-Parlamentet og Raadet",
+   "sections": [
+    "rm_residential",
+    "political_factors"
+   ],
+   "terms": [
+    "epbd",
+    "43 pct",
+    "daarligst praesterende",
+    "daarligste energimaessige ydeevne",
+    "beboelsesbygninger",
+    "energirenovering",
+    "boligmassen"
+   ],
+   "status": "vedtaget",
+   "legal_basis": "Direktiv (EU) 2024/1275 (EPBD), artikel 9, stk. 2, fjerde afsnit",
+   "wording": "Medlemsstaterne sikrer, at mindst 55 % af faldet i det i tredje afsnit omhandlede gennemsnitlige primaerenergiforbrug opnaas gennem renovering af de 43 % beboelsesbygninger, der har den daarligste energimaessige ydeevne.",
+   "url": "http://publications.europa.eu/resource/cellar/2b15980c-0cd4-11ef-a251-01aa75ed71a1.0003.03/DOC_1",
+   "verified": "2026-08-27",
+   "valid_until": null,
+   "note": "ANDEL AF BYGNINGSMASSEN, ikke en energireduktion. Maa ikke forveksles med dk-023/dk-024/dk-030, der maaler faldet i kWh/m2. De 43 pct. er MAALGRUPPEN; de 16 og 20-22 pct. er RESULTATKRAVET. Aarstallet 2030 er sat efter foerste delmaal (art. 9, stk. 2, litra a) — kravet har ingen selvstaendig frist.",
+   "values": [
+    {
+     "year": 2030,
+     "value": 43,
+     "period": "2030",
+     "quote": "Direktiv (EU) 2024/1275 (EPBD), artikel 9, stk. 2, fjerde afsnit · Europa-Parlamentet og Raadet · ordret: Medlemsstaterne sikrer, at mindst 55 % af faldet i det i tredje afsnit omhandlede gennemsnitlige primaerenergiforbrug opnaas gennem renovering af de 43 % beboelsesbygninger, der har den daarligste energimaessige ydeevne.",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_032",
+   "label": "EPBD: mindst 55 pct. af energifaldet skal opnaas gennem renovering af de daarligste 43 pct.",
+   "grundlag": "politisk",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "Europa-Parlamentet og Raadet",
+   "sections": [
+    "rm_residential",
+    "political_factors"
+   ],
+   "terms": [
+    "epbd",
+    "55 pct",
+    "energifald",
+    "primaerenergiforbrug",
+    "energirenovering",
+    "daarligst praesterende"
+   ],
+   "status": "vedtaget",
+   "legal_basis": "Direktiv (EU) 2024/1275 (EPBD), artikel 9, stk. 2, fjerde afsnit",
+   "wording": "Medlemsstaterne sikrer, at mindst 55 % af faldet i det i tredje afsnit omhandlede gennemsnitlige primaerenergiforbrug opnaas gennem renovering af de 43 % beboelsesbygninger, der har den daarligste energimaessige ydeevne.",
+   "url": "http://publications.europa.eu/resource/cellar/2b15980c-0cd4-11ef-a251-01aa75ed71a1.0003.03/DOC_1",
+   "verified": "2026-08-27",
+   "valid_until": null,
+   "note": "BINDINGEN mellem maalgruppe og resultat: over halvdelen af reduktionen SKAL komme fra de daarligste 43 pct. Det er derfor kravet ikke kan opfyldes med spredte forbedringer i den nyere bygningsmasse. Samme bestemmelse som dk-031.",
+   "values": [
+    {
+     "year": 2030,
+     "value": 55,
+     "period": "2030",
+     "quote": "Direktiv (EU) 2024/1275 (EPBD), artikel 9, stk. 2, fjerde afsnit · Europa-Parlamentet og Raadet · ordret: Medlemsstaterne sikrer, at mindst 55 % af faldet i det i tredje afsnit omhandlede gennemsnitlige primaerenergiforbrug opnaas gennem renovering af de 43 % beboelsesbygninger, der har den daarligste energimaessige ydeevne.",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_033",
+   "label": "Ét-årig finanseffekt af finans- og strukturpolitikken i 2026 (afløser dk-008)",
+   "grundlag": "politisk",
+   "unit": "pp",
+   "talart": "niveau",
+   "source": "Skatte- og Vækstministeriet",
+   "sections": [
+    "political_factors",
+    "economic_outlook"
+   ],
+   "terms": [
+    "finanseffekt",
+    "ét-årig",
+    "finanspolitik",
+    "lempelse",
+    "outputgab"
+   ],
+   "status": "officielt_skoen",
+   "legal_basis": "Økonomisk Redegørelse, august 2026 (udgivet 27. august 2026), kapitel 2, afsnittet \"Lempelig finanspolitik og aftagende kapacitetspres i 2027\", s. 39; også oversigtstabellen i kapitel 1 og appendiks A.4",
+   "wording": "Under de givne forudsætninger skønnes den ét-årige finanseffekt til 0,9 pct.-point i 2026, hvilket er 0,1 pct.-point lavere end i vurderingen fra maj, og afspejler en nedjustering af realvæksten i det offentlige forbrug. I 2027 skønnes den ét-årige finanseffekt til 0,4 pct.-point",
+   "url": "https://skatteministeriet.dk/media/i4dlt0v4/okonomisk-redegoerelse-august-2026_web.pdf",
+   "verified": "2026-09-02",
+   "valid_until": null,
+   "note": "Kollegernes rettelse 1/9-2026 fra 0,4 (dk-008, faktaark dec. 2025) til 0,9 er en opdatering til ØR august 2026. Ordlyden verificeret mod PDF 2/9-2026 (lokal kopi: Agent P1 research/rapporter/okonomisk-redegoerelse-august-2026_web.pdf). 2027-tallet 0,4 er stadig en lempelse — bærer tekstens \"i 2026 såvel som i 2027\". Kilden måler hele den planlagte finans- og strukturpolitik, ikke finanslovsaftalen isoleret.",
+   "values": [
+    {
+     "year": 2026,
+     "value": 0.9,
+     "period": "2026",
+     "quote": "Økonomisk Redegørelse, august 2026 (udgivet 27. august 2026), kapitel 2, afsnittet \"Lempelig finanspolitik og aftagende kapacitetspres i 2027\", s. 39; også oversigtstabellen i kapitel 1 og appendiks A.4 · Skatte- og Vækstministeriet · ordret: Under de givne forudsætninger skønnes den ét-årige finanseffekt til 0,9 pct.-point i 2026, hvilket er 0,1 pct.-point lavere end i vurderingen fra maj, og afspejler en nedjustering af realvæksten i det offentlige forbrug. I 2027 skønnes den ét-årige finanseffekt til 0,4 pct.-point",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_034",
+   "label": "Realvækst i husholdningernes disponible indkomst 2026",
+   "grundlag": "politisk",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "Skatte- og Vækstministeriet",
+   "sections": [
+    "political_factors",
+    "economic_outlook"
+   ],
+   "terms": [
+    "disponibel indkomst",
+    "disponible indkomst",
+    "real",
+    "husholdninger",
+    "forbrugsmuligheder"
+   ],
+   "status": "officielt_skoen",
+   "legal_basis": "Økonomisk Redegørelse, august 2026, bilagstabel B.14 \"Bidrag til stigningen i husholdningernes reale disponible indkomster\", s. 117 (kolonne 2026)",
+   "wording": "Tabel B.14 Bidrag til stigningen i husholdningernes reale disponible indkomster … Realvækst, pct. Disponibel indkomst 3,8 2,2 2,5 2,7 1,4",
+   "url": "https://skatteministeriet.dk/media/i4dlt0v4/okonomisk-redegoerelse-august-2026_web.pdf",
+   "verified": "2026-09-02",
+   "valid_until": null,
+   "note": "Kolonnerne er 2023-2027; 2026 = 2,7. Tabellen viser at væksten bæres af lønsum (+2,8 pp) og overførsler (+1,5 pp) mod skatter (−2,3 pp). Skriv \"Samlet forbedres husholdningernes reale disponible indkomst med ca. 2,7 pct.\" — IKKE \"som følge af lempelserne\", det ville være en overfortolkning. Verificeret mod PDF 2/9-2026.",
+   "values": [
+    {
+     "year": 2026,
+     "value": 2.7,
+     "period": "2026",
+     "quote": "Økonomisk Redegørelse, august 2026, bilagstabel B.14 \"Bidrag til stigningen i husholdningernes reale disponible indkomster\", s. 117 (kolonne 2026) · Skatte- og Vækstministeriet · ordret: Tabel B.14 Bidrag til stigningen i husholdningernes reale disponible indkomster … Realvækst, pct. Disponibel indkomst 3,8 2,2 2,5 2,7 1,4",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_035",
+   "label": "Forsvarsudgifternes importindhold halverer omtrent den ét-årige finanseffekts aktivitetsvirkning (illustrativ beregning)",
+   "grundlag": "politisk",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "Skatte- og Vækstministeriet",
+   "sections": [
+    "political_factors"
+   ],
+   "terms": [
+    "aktivitetsvirkning",
+    "finanseffekt",
+    "materiel",
+    "import",
+    "importindhold",
+    "forsvar",
+    "halvt"
+   ],
+   "status": "officielt_skoen",
+   "legal_basis": "Økonomisk Redegørelse, august 2026, kapitel 2, s. 39 (afsnittet efter figur 2.6); gentaget i sammenfatningen s. 10 og appendiks s. 77",
+   "wording": "I en illustrativ beregning antages det derfor, at halvdelen af stigningen i de offentlige investeringer og det offentlige varekøb fra 2024 til 2027 alene består af import. Med denne antagelse er de ét-årige finanseffekter omtrent halvt så store som i standardberegningen.",
+   "url": "https://skatteministeriet.dk/media/i4dlt0v4/okonomisk-redegoerelse-august-2026_web.pdf",
+   "verified": "2026-09-02",
+   "valid_until": null,
+   "note": "KVALITATIVT tal: teksten skriver \"halvt så stor\", ikke 50 pct. ØR kalder det en ILLUSTRATIV beregning under en antagelse, ikke sit hovedskøn — kollegernes \"regner kun med halvt så stor en aktivitetsvirkning\" er på grænsen; foretræk \"illustrerer at aktivitetsvirkningen kan være omtrent halvt så stor\". Verificeret mod PDF 2/9-2026.",
+   "values": [
+    {
+     "year": 2026,
+     "value": 50,
+     "period": "2026",
+     "quote": "Økonomisk Redegørelse, august 2026, kapitel 2, s. 39 (afsnittet efter figur 2.6); gentaget i sammenfatningen s. 10 og appendiks s. 77 · Skatte- og Vækstministeriet · ordret: I en illustrativ beregning antages det derfor, at halvdelen af stigningen i de offentlige investeringer og det offentlige varekøb fra 2024 til 2027 alene består af import. Med denne antagelse er de ét-årige finanseffekter omtrent halvt så store som i standardberegningen.",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_036",
+   "label": "Prioritering af nettilslutning i fire kategorier — datacentre som udgangspunkt i kategori 4 (sidst i køen)",
+   "grundlag": "politisk",
+   "unit": "kategori",
+   "talart": "niveau",
+   "source": "Klima-, Energi- og Forsyningsministeriet",
+   "sections": [
+    "political_factors",
+    "new_non_residential"
+   ],
+   "terms": [
+    "nettilslutning",
+    "el-tilslutning",
+    "elnet",
+    "Energinet",
+    "prioritering",
+    "prioriteringslister",
+    "datacentre",
+    "tilslutningskrise"
+   ],
+   "status": "aftale",
+   "legal_basis": "Politisk forståelse om en akutplan for elnettet af 29. juni 2026 (regeringen + bredt flertal), s. 3-4. Lovforslag L 23 (2025-26, 2. samling) fremsat 20. august 2026 — IKKE vedtaget pr. 1. september 2026; reglerne skal efter planen gælde inden Energinets næste tildeling af store nettilslutningsaftaler i efteråret 2026.",
+   "wording": "Kategori 4: Visse store energiforbrugere. Kategorien vil som udgangspunkt omfatte datacentre, der typisk ikke er geografisk bundne og kan have et forbrugsmønster, som påvirker nettet negativt. Datacentre, der knytter sig til samfundskritiske funktioner, kan dog prioriteres under kategori 1. […] Partierne noterer sig, at Energinet 2. marts 2026 indførte en tre måneders pause i elnettilslutning af større kunder. […] mulighed for at afvise anmodninger om nettilslutning i kategori 3 og 4, hvor der ikke forventes tilstrækkelig kapacitet i elnettet over en overskuelig fremtid",
+   "url": "https://www.kefm.dk/Media/639183149168897728/Politisk%20forstelse%20om%20en%20akutplan%20for%20elnettet.pdf",
+   "verified": "2026-09-01",
+   "valid_until": null,
+   "note": "NYT emne tilføjet af kollegerne 1/9-2026 — stod hverken i brief eller noter. Status er FORSTÅELSE + FREMSAT LOVFORSLAG, ikke gældende ret: skriv \"politisk arbejder man nu med prioriteringslister\", ikke \"datacentre er nedprioriteret ved lov\". Energinets tilslutningspause fra 2. marts 2026 bærer \"tilslutningskrise\". Effekten på byggeaktivitet pr. byggetype er husets eget skøn, ikke kildens. Gencheck L 23 efter efterårets tildeling.",
+   "values": [
+    {
+     "year": 2026,
+     "value": 4,
+     "period": "2026",
+     "quote": "Politisk forståelse om en akutplan for elnettet af 29. juni 2026 (regeringen + bredt flertal), s. 3-4. Lovforslag L 23 (2025-26, 2. samling) fremsat 20. august 2026 — IKKE vedtaget pr. 1. september 2026; reglerne skal efter planen gælde inden Energinets næste tildeling af store nettilslutningsaftaler i efteråret 2026. · Klima-, Energi- og Forsyningsministeriet · ordret: Kategori 4: Visse store energiforbrugere. Kategorien vil som udgangspunkt omfatte datacentre, der typisk ikke er geografisk bundne og kan have et forbrugsmønster, som påvirker nettet negativt. Datacentre, der knytter sig til samfundskritiske funktioner, kan dog prioriteres under kategori 1. […] Part",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "politik_dk_037",
+   "label": "Højprisordningen — op til 10 pct. yderligere via forhøjet kommunalt grundkapitallån/tillægslån (oveni de 20 pct.)",
+   "grundlag": "politisk",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "Social- og Boligministeriet",
+   "sections": [
+    "new_residential",
+    "political_factors"
+   ],
+   "terms": [
+    "tillægslån",
+    "grundkapitallån",
+    "kommunale tillægslån",
+    "ekstra",
+    "højprisordning"
+   ],
+   "status": "aftale",
+   "legal_basis": "Aftale om styrkede rammer for alment boligbyggeri af 17. december 2025, afsnit 2, s. 2. Lovhjemmel: L 18 (2025-26, 2. samling), fremsat 25. juni 2026, andenbehandlet 25. august 2026, planlagt ikrafttræden 4. september 2026 — vedtagelse IKKE bekræftet pr. 1. september 2026.",
+   "wording": "De resterende 10 pct. finansieres via et forhøjet kommunalt grundkapitallån. Denne del påvirker ikke huslejen.",
+   "url": "https://www.sm.dk/Media/639014943075256840/Aftale%20om%20styrkede%20rammer%20for%20alment%20byggeri.pdf",
+   "verified": "2026-09-01",
+   "valid_until": "2035-12-31",
+   "note": "AAR TOMT MED VILJE: ordningen er en taerskel 2026-2035 (gaelder_til baerer udloebet), og teksten sammenligner med 2025 - et aarskrav paa 2026 afviste den korrekte saetning 2/9-2026. Skilt ud fra dk-011, så \"10 pct. ekstra gennem kommunale tillægslån\" ikke binder til dk-029 (BEK 40's 10 pct., som er GÆLDENDE). Denne del er AFTALT, ikke vedtaget — skriv \"mulighed for\" eller \"når L 18 er vedtaget\". Ministeriets nyhed 25/8-2026 bekræfter konstruktionen (\"Derudover kan der tillægges 10 procent finansieret via kommunalt tillægslån\"). Gencheck efter 4/9-2026.",
+   "values": [
+    {
+     "year": 2026,
+     "value": 10,
+     "period": "uden årstal",
+     "quote": "Aftale om styrkede rammer for alment boligbyggeri af 17. december 2025, afsnit 2, s. 2. Lovhjemmel: L 18 (2025-26, 2. samling), fremsat 25. juni 2026, andenbehandlet 25. august 2026, planlagt ikrafttræden 4. september 2026 — vedtagelse IKKE bekræftet pr. 1. september 2026. · Social- og Boligministeriet · ordret: De resterende 10 pct. finansieres via et forhøjet kommunalt grundkapitallån. Denne del påvirker ikke huslejen. · UDEN ÅRSTAL (tærskel, gælder til 2035-12-31)",
+     "n_obs": 0
+    }
+   ]
+  },
+  {
+   "id": "renoveringsplaner",
+   "label": "Planer om større boligforbedringer eller renoveringer, nettotal",
+   "grundlag": "maaling",
+   "unit": "nettotal",
+   "talart": "niveau",
+   "source": "DST FORV2, indikator F16 — planer om større forbedringer eller renoveringer i hjemmet de næste 12 måneder",
+   "sections": [
+    "rm_residential",
+    "building_market"
+   ],
+   "terms": [
+    "renoveringsplaner",
+    "renovering",
+    "boligforbedringer",
+    "forbrugerplaner",
+    "planer om renovering",
+    "husholdningernes planer",
+    "gør-det-selv"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": -50.5,
+     "period": "2023K02",
+     "quote": "DST FORV2, indikator F16 — planer om større forbedringer eller renoveringer i hjemmet de næste 12 måneder · samme periode året før, sæsonsikret 2023K02: -50.5",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": -49.6,
+     "period": "2024K02",
+     "quote": "DST FORV2, indikator F16 — planer om større forbedringer eller renoveringer i hjemmet de næste 12 måneder · samme periode året før, sæsonsikret 2024K02: -49.6",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": -50.3,
+     "period": "2025K02",
+     "quote": "DST FORV2, indikator F16 — planer om større forbedringer eller renoveringer i hjemmet de næste 12 måneder · samme periode året før, sæsonsikret 2025K02: -50.3",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": -49.7,
+     "period": "2026K02",
+     "quote": "DST FORV2, indikator F16 — planer om større forbedringer eller renoveringer i hjemmet de næste 12 måneder · samme periode året før, sæsonsikret 2026K02: -49.7",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "svaer_at_forudsige_bygge",
+   "label": "Svært eller moderat svært at forudsige forretningssituationen, bygge og anlæg",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "andel",
+   "source": "DST KBB04, branche F, bedømmelse 'moderat svær' + 'svær at forudsige'",
+   "sections": [
+    "supply_side",
+    "building_market"
+   ],
+   "terms": [
+    "forudsige",
+    "forudsigelighed",
+    "uforudsigelig",
+    "usikkerhed",
+    "kende fremtiden"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 39,
+     "period": "2023M08",
+     "quote": "DST KBB04, branche F, bedømmelse 'moderat svær' + 'svær at forudsige' · samme periode året før, sæsonsikret 2023M08: 39",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 42,
+     "period": "2024M08",
+     "quote": "DST KBB04, branche F, bedømmelse 'moderat svær' + 'svær at forudsige' · samme periode året før, sæsonsikret 2024M08: 42",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 43,
+     "period": "2025M08",
+     "quote": "DST KBB04, branche F, bedømmelse 'moderat svær' + 'svær at forudsige' · samme periode året før, sæsonsikret 2025M08: 43",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 47,
+     "period": "2026M08",
+     "quote": "DST KBB04, branche F, bedømmelse 'moderat svær' + 'svær at forudsige' · samme periode året før, sæsonsikret 2026M08: 47",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "svaer_at_forudsige_opforelse",
+   "label": "Svært eller moderat svært at forudsige forretningssituationen, opførelse af bygninger",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "andel",
+   "source": "DST KBB04, branche F41, bedømmelse 'moderat svær' + 'svær at forudsige'",
+   "sections": [
+    "supply_side",
+    "new_residential",
+    "new_non_residential"
+   ],
+   "terms": [
+    "forudsige",
+    "forudsigelighed",
+    "uforudsigelig",
+    "usikkerhed",
+    "kende fremtiden",
+    "planlægningshorisont"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 59,
+     "period": "2023M08",
+     "quote": "DST KBB04, branche F41, bedømmelse 'moderat svær' + 'svær at forudsige' · samme periode året før, sæsonsikret 2023M08: 59",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 67,
+     "period": "2024M08",
+     "quote": "DST KBB04, branche F41, bedømmelse 'moderat svær' + 'svær at forudsige' · samme periode året før, sæsonsikret 2024M08: 67",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 66,
+     "period": "2025M08",
+     "quote": "DST KBB04, branche F41, bedømmelse 'moderat svær' + 'svær at forudsige' · samme periode året før, sæsonsikret 2025M08: 66",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 71,
+     "period": "2026M08",
+     "quote": "DST KBB04, branche F41, bedømmelse 'moderat svær' + 'svær at forudsige' · samme periode året før, sæsonsikret 2026M08: 71",
+     "n_obs": 1
+    }
+   ]
+  },
+  {
+   "id": "ubesatte_rekrutteringsforsoeg_bygge_anlaeg",
+   "label": "Ubesatte rekrutteringsforsøg (FRR uden substitution), bygge og anlæg",
+   "grundlag": "maaling",
+   "unit": "pct",
+   "talart": "niveau",
+   "source": "STAR Rekrutteringssurvey via Jobindsats Y25i14, erhvervsgruppe Bygge og anlæg, hele landet — andel af rekrutteringsforsøg der endte ubesat (STAR's hovedindikator fra april 2026)",
+   "sections": [
+    "supply_side"
+   ],
+   "terms": [
+    "ubesat",
+    "ubesatte rekrutteringsforsøg",
+    "uden substitution",
+    "forgæves",
+    "rekrutter"
+   ],
+   "status": null,
+   "legal_basis": null,
+   "wording": null,
+   "url": null,
+   "verified": null,
+   "valid_until": null,
+   "note": null,
+   "values": [
+    {
+     "year": 2023,
+     "value": 20,
+     "period": "2023M06",
+     "quote": "STAR Rekrutteringssurvey via Jobindsats Y25i14, erhvervsgruppe Bygge og anlæg, hele landet — andel af rekrutteringsforsøg der endte ubesat (STAR's hovedindikator fra april 2026) · samme periode året før, sæsonsikret 2023M06: 20",
+     "n_obs": 1
+    },
+    {
+     "year": 2024,
+     "value": 17,
+     "period": "2024M06",
+     "quote": "STAR Rekrutteringssurvey via Jobindsats Y25i14, erhvervsgruppe Bygge og anlæg, hele landet — andel af rekrutteringsforsøg der endte ubesat (STAR's hovedindikator fra april 2026) · samme periode året før, sæsonsikret 2024M06: 17",
+     "n_obs": 1
+    },
+    {
+     "year": 2025,
+     "value": 18,
+     "period": "2025M06",
+     "quote": "STAR Rekrutteringssurvey via Jobindsats Y25i14, erhvervsgruppe Bygge og anlæg, hele landet — andel af rekrutteringsforsøg der endte ubesat (STAR's hovedindikator fra april 2026) · samme periode året før, sæsonsikret 2025M06: 18",
+     "n_obs": 1
+    },
+    {
+     "year": 2026,
+     "value": 19,
+     "period": "2026M06",
+     "quote": "STAR Rekrutteringssurvey via Jobindsats Y25i14, erhvervsgruppe Bygge og anlæg, hele landet — andel af rekrutteringsforsøg der endte ubesat (STAR's hovedindikator fra april 2026) · samme periode året før, sæsonsikret 2026M06: 19",
+     "n_obs": 1
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,156 @@
+{
+ "manifest": {
+  "source_config": "C:\\Users\\b45615\\OneDrive - Byggfakta Group\\Denmark\\Filer til prognosen\\Mentor Forecast\\Agent P1 research\\markedsdrivere\\config\\dk.yaml",
+  "years": [
+   2026,
+   2027,
+   2028
+  ],
+  "n_derivations": 6,
+  "live_rules": [
+   "ratio",
+   "identity",
+   "same_as"
+  ],
+  "note": "Kun ratio/identity/same_as er formler i P1. `depends_on` alene er en dokumenteret retning — for privatforbrugs-driverne en MÅLT og forkastet en."
+ },
+ "derivations": {
+  "Real interest rate (Mortgage)": {
+   "driver": "Real interest rate (Mortgage)",
+   "rule": "identity",
+   "rationale": "Baseret på at lang rente er stigende",
+   "parent": "mortgage_rate",
+   "produces": "level",
+   "deflator": {
+    "2026": 2.244,
+    "2027": 2.037,
+    "2028": 2.037
+   },
+   "baseline_level": {
+    "2026": 1.8559999999999994,
+    "2027": 2.263
+   },
+   "parent_baseline": {
+    "2026": 4.1,
+    "2027": 4.3,
+    "2028": null
+   }
+  },
+  "Real Interest rate (CB)": {
+   "driver": "Real Interest rate (CB)",
+   "rule": "identity",
+   "rationale": "Indskudsbevisrente minus forventet inflation",
+   "parent": "cbrate",
+   "produces": "level",
+   "deflator": {
+    "2026": 2.244,
+    "2027": 2.037,
+    "2028": 2.037
+   },
+   "baseline_level": {
+    "2026": -0.39400000000000013,
+    "2027": -0.18699999999999983
+   },
+   "parent_baseline": {
+    "2026": 1.85,
+    "2027": 1.85,
+    "2028": null
+   }
+  },
+  "Tobins-Q (Detached houses)": {
+   "driver": "Tobins-Q (Detached houses)",
+   "rule": "ratio",
+   "rationale": "Boligpriser divideret med byggeomkostninger",
+   "parent": "hpi",
+   "denominator_exo": "Construction costs",
+   "produces": "growth",
+   "baseline_growth": {
+    "2026": 0.036069893665996666,
+    "2027": 0.016521405106260767
+   },
+   "parent_baseline": {
+    "2026": 6,
+    "2027": 4,
+    "2028": null
+   },
+   "denominator_value": {
+    "2026": 0.023097,
+    "2027": 0.023097,
+    "2028": 0.023097
+   }
+  },
+  "Tobins-Q (Flats)": {
+   "driver": "Tobins-Q (Flats)",
+   "rule": "ratio",
+   "rationale": "Boligpriser divideret med byggeomkostninger",
+   "parent": "hpi",
+   "denominator_exo": "Construction costs",
+   "produces": "growth",
+   "baseline_growth": {
+    "2026": 0.036069893665996666,
+    "2027": 0.016521405106260767
+   },
+   "parent_baseline": {
+    "2026": 6,
+    "2027": 4,
+    "2028": null
+   },
+   "denominator_value": {
+    "2026": 0.023097,
+    "2027": 0.023097,
+    "2028": 0.023097
+   }
+  },
+  "Tobins-Q (Holiday homes)": {
+   "driver": "Tobins-Q (Holiday homes)",
+   "rule": "ratio",
+   "rationale": "Boligpriser divideret med byggeomkostninger",
+   "parent": "hpi",
+   "denominator_exo": "Construction costs",
+   "produces": "growth",
+   "baseline_growth": {
+    "2026": 0.036069893665996666,
+    "2027": 0.016521405106260767
+   },
+   "parent_baseline": {
+    "2026": 6,
+    "2027": 4,
+    "2028": null
+   },
+   "denominator_value": {
+    "2026": 0.023097,
+    "2027": 0.023097,
+    "2028": 0.023097
+   }
+  },
+  "Kontorbeskaeftigelse": {
+   "driver": "Kontorbeskaeftigelse",
+   "rule": "same_as",
+   "rationale": "Identisk serie med Office employees total",
+   "parent": "Office employees total",
+   "produces": "same"
+  }
+ },
+ "not_derived": [
+  {
+   "driver": "Consumer confidence indicator (CCI)",
+   "depends_on": "consump",
+   "why": "kun `depends_on` — en retning, ikke en formel. For privatforbrugs-driverne har P1 målt elasticiteten og forkastet den ud af stikprøven."
+  },
+  {
+   "driver": "Business cycle Retail trade (survey)",
+   "depends_on": "consump",
+   "why": "kun `depends_on` — en retning, ikke en formel. For privatforbrugs-driverne har P1 målt elasticiteten og forkastet den ud af stikprøven."
+  },
+  {
+   "driver": "Retail sales index (volume)",
+   "depends_on": "consump",
+   "why": "kun `depends_on` — en retning, ikke en formel. For privatforbrugs-driverne har P1 målt elasticiteten og forkastet den ud af stikprøven."
+  },
+  {
+   "driver": "Construction costs",
+   "depends_on": "build_cost",
+   "why": "kun `depends_on` — en retning, ikke en formel. For privatforbrugs-driverne har P1 målt elasticiteten og forkastet den ud af stikprøven."
+  }
+ ]
+}

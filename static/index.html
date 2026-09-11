@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mimir MVP · Denmark</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <span class="star">&#10022;</span>
+    <div>
+      <h1>Prognosecenteret &middot; Mimir</h1>
+      <div class="hubexo">A Hubexo Product</div>
+    </div>
+    <span class="sub" id="roundLabel">loading&hellip;</span>
+    <span class="sub" id="sourcesAsOf"></span>
+    <span class="rolesel" id="roleSel"></span>
+    <span class="langsel">
+      <button data-lang="en" class="on">EN</button>
+      <button data-lang="sv">SV</button>
+    </span>
+  </div>
+  <nav class="gates" id="gateNav"></nav>
+</header>
+
+<!-- ══ GATE 0 ════════════════════════════════════════════ -->
+<main class="single" id="view-0" hidden>
+  <section>
+    <div class="card">
+      <h2 id="g0h"></h2>
+      <p class="lede" id="g0lede"></p>
+      <div class="flag note" id="g0empty"></div>
+      <table class="diag" id="sourceTable"></table>
+      <div class="flag note" id="g0silent" style="margin-top:12px"></div>
+      <div class="row-btns" style="margin-top:14px">
+        <button class="primary" id="openRoundBtn"></button>
+        <span class="live" id="g0status"></span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ══ GATE 1 ════════════════════════════════════════════ -->
+<main id="view-1" hidden>
+  <section>
+    <div class="card">
+      <h2 id="g1h"></h2>
+      <p class="lede" id="g1lede"></p>
+      <div id="drivers"></div>
+      <div class="row-btns"><button class="ghost" id="resetBtn"></button></div>
+    </div>
+    <div class="card">
+      <h2 id="g1inerth"></h2>
+      <p class="lede" id="g1inertlede"></p>
+      <div id="inert"></div>
+    </div>
+    <div class="card">
+      <h2 id="jh"></h2>
+      <p class="lede" id="jlede"></p>
+      <div id="journal" class="meta-grid"></div>
+    </div>
+  </section>
+  <section>
+    <div class="card">
+      <div class="seg-tabs" id="segTabs"></div>
+      <h2 id="chartTitle">&nbsp;</h2>
+      <p class="lede" id="chartSub">&nbsp;</p>
+      <div class="kpis" id="kpis"></div>
+      <svg id="chart" viewBox="0 0 860 320" role="img" aria-label="Forecast"></svg>
+      <div class="chartkey" id="chartKey"></div>
+      <p class="live" id="liveInfo">&nbsp;</p>
+      <table class="annual" id="annualTable"></table>
+    </div>
+    <div class="card">
+      <h2 id="movedh"></h2>
+      <p class="lede" id="movedlede"></p>
+      <div id="decomp"></div>
+      <svg id="annualChart" viewBox="0 0 860 190" role="img" aria-label="Annual"></svg>
+      <div class="chartkey" id="annualKey"></div>
+    </div>
+  </section>
+</main>
+
+<!-- ══ GATE 1b ═══════════════════════════════════════════ -->
+<main class="single" id="view-1b" hidden>
+  <section>
+    <div class="card">
+      <h2 id="g1bh"></h2>
+      <p class="lede" id="g1blede"></p>
+      <div class="flag warn" id="g1bwarn"></div>
+      <div class="seg-tabs" id="ovSegTabs"></div>
+      <table class="annual" id="overlayTable"></table>
+      <div class="meta-grid" id="overlayList" style="margin-top:16px"></div>
+    </div>
+    <div class="card">
+      <h2 id="ovChartH"></h2>
+      <p class="lede" id="ovChartSub"></p>
+      <svg id="ovChart" viewBox="0 0 860 300" role="img" aria-label="Overlay"></svg>
+      <div class="chartkey" id="ovKey"></div>
+    </div>
+  </section>
+</main>
+
+<!-- ══ GATE 1 · VERIFICATION (38 drivers, no forecast here) ══ -->
+<main id="view-verify" hidden>
+  <section>
+    <div class="card">
+      <h2 id="vh"></h2>
+      <p class="lede" id="vlede"></p>
+      <div class="vprog" id="vProgress"></div>
+      <div class="row-btns">
+        <button class="ghost" id="approveAllBtn"></button>
+      </div>
+      <div id="driverList" class="dlist"></div>
+    </div>
+  </section>
+  <section>
+    <div id="driverPane"></div>
+  </section>
+</main>
+
+<!-- ══ RUN MONITOR (orchestrator, not the analyst UI) ══════ -->
+<main class="single" id="view-run" hidden>
+  <section>
+    <div class="card">
+      <h2 id="runh"></h2>
+      <p class="lede" id="runlede"></p>
+      <div class="kpis" id="runKpis"></div>
+      <div class="row-btns">
+        <button class="ghost" id="newRunBtn"></button>
+        <span class="live" id="runNote"></span>
+      </div>
+      <table class="diag" id="stepTable"></table>
+    </div>
+    <div class="card">
+      <h2 id="logh"></h2>
+      <div class="meta-grid" id="runEvents"></div>
+    </div>
+  </section>
+</main>
+
+<!-- ══ GATE 2 ════════════════════════════════════════════ -->
+<main class="single" id="view-2" hidden>
+  <section>
+    <div class="card">
+      <h2 id="g2h"></h2>
+      <p class="lede" id="g2lede"></p>
+      <div id="configRows"></div>
+    </div>
+    <div class="card">
+      <h2 id="diagh"></h2>
+      <p class="lede" id="diaglede"></p>
+      <table class="diag" id="diagTable"></table>
+      <div class="row-btns" style="margin-top:14px">
+        <input type="text" id="signoffReason" class="wide">
+        <button class="primary" id="signoffBtn"></button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ══ GATE 3 ════════════════════════════════════════════ -->
+<main class="single" id="view-3" hidden>
+  <section>
+    <div class="card">
+      <h2 id="g3h"></h2>
+      <p class="lede" id="g3lede"></p>
+      <div id="chapterBox"></div>
+      <div class="flag" id="checkFlag"></div>
+      <p class="lede" style="margin-top:14px" id="g3editlabel"></p>
+      <textarea id="chapterEdit" class="wide" rows="6"></textarea>
+      <input type="text" id="editReason" class="wide" style="margin-top:8px">
+      <div class="row-btns">
+        <button class="ghost" id="recheckBtn"></button>
+        <button class="primary" id="saveEditBtn"></button>
+      </div>
+      <div class="meta-grid" id="styleNotes" style="margin-top:16px"></div>
+    </div>
+  </section>
+</main>
+
+<!-- ══ PUBLISH ═══════════════════════════════════════════ -->
+<main class="single" id="view-pub" hidden>
+  <section>
+    <div class="card">
+      <h2 id="pubh"></h2>
+      <p class="lede" id="publede"></p>
+      <div class="row-btns"><button class="primary" id="publishBtn"></button></div>
+      <div id="published"></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="honest">
+    <h2 id="honesth"></h2>
+    <p id="honest1"></p><p id="honest2"></p><p id="honest3"></p>
+  </div>
+</footer>
+
+<div class="veil" id="quoteVeil">
+  <div class="modal">
+    <h3 id="qTitle"></h3>
+    <p class="msub" id="qSub"></p>
+    <blockquote id="qQuote"></blockquote>
+    <div class="meta-grid" id="qMeta"></div>
+    <div class="acts"><button class="ghost" id="qClose"></button></div>
+  </div>
+</div>
+
+<div class="veil" id="overrideVeil">
+  <div class="modal">
+    <h3 id="oTitle"></h3>
+    <p class="msub" id="oSub"></p>
+    <div class="cmp">
+      <div><span id="oAgentL"></span><b id="oAgent"></b></div>
+      <div><span id="oValueL"></span><b id="oValue"></b></div>
+    </div>
+    <textarea id="oReason"></textarea>
+    <div class="flag" id="oGuard"></div>
+    <p class="msub" id="oKeep"></p>
+    <div class="acts">
+      <button class="ghost" id="oCancel"></button>
+      <button class="primary" id="oCommit"></button>
+    </div>
+  </div>
+</div>
+
+<div class="veil" id="overlayVeil">
+  <div class="modal">
+    <h3 id="ovTitle"></h3>
+    <p class="msub" id="ovSub"></p>
+    <div class="cmp">
+      <div><span id="ovModelL"></span><b id="ovModel"></b></div>
+      <div><span id="ovYoursL"></span><b id="ovYours"></b></div>
+    </div>
+    <input type="number" id="ovValue" class="wide" step="1">
+    <textarea id="ovReason" style="margin-top:9px"></textarea>
+    <div class="flag" id="ovGuard"></div>
+    <p class="msub" id="ovKeep"></p>
+    <div class="acts">
+      <button class="ghost" id="ovCancel"></button>
+      <button class="primary" id="ovCommit"></button>
+    </div>
+  </div>
+</div>
+
+<div class="veil" id="rejectVeil">
+  <div class="modal">
+    <h3 id="rTitle"></h3>
+    <p class="msub" id="rSub"></p>
+    <textarea id="rReason"></textarea>
+    <div class="acts">
+      <button class="ghost" id="rCancel"></button>
+      <button class="primary" id="rConfirm"></button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+<script src="/static/i18n.js"></script>
+<script src="/static/app.js"></script>
+<script src="/static/verify.js"></script>
+</body>
+</html>

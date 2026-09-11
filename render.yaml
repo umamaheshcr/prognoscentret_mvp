@@ -1,0 +1,30 @@
+# Render blueprint. New > Blueprint, point it at this repository, and Render
+# reads this file instead of asking the questions below one at a time.
+#
+# Two lines here are load-bearing and worth understanding rather than copying:
+#
+#   --workers 1   The round lives in a module-level dict in app/main.py. A
+#                 second worker is a second, invisible round; whoever lands on
+#                 it sees different approvals and a different forecast. Never
+#                 raise this, and never enable autoscaling, until that state
+#                 moves out of the process.
+#
+#   MIMIR_BASIC   Deliberately not set here. sync:false means Render asks for
+#                 it, so the credential is never committed. Until it is set the
+#                 app returns 503 to everything except /healthz.
+services:
+  - type: web
+    name: mimir-mvp
+    runtime: python          # older Render blueprints call this key `env:`
+    plan: free
+    region: frankfurt        # closest of Render's regions to DK/SE
+    branch: main
+    autoDeploy: true         # a push to main redeploys and restarts the round
+    buildCommand: pip install -r requirements.txt && python tools/precache.py
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT --workers 1
+    healthCheckPath: /healthz
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.9"
+      - key: MIMIR_BASIC
+        sync: false          # set in the dashboard as  user:password
